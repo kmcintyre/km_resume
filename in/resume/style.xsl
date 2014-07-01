@@ -145,9 +145,9 @@
 	</xsl:template>
 
 	<xsl:template match="project">
-		<fo:block>
+		<fo:block margin-left="25">
 			<xsl:for-each select="linkto">
-				<fo:inline  padding="1mm" font-size="12pt" font-weight="italic">
+				<fo:inline  padding="2mm">
 					<fo:basic-link>
 							<xsl:attribute name="external-destination">url('http://<xsl:value-of
 								select="@url" />')</xsl:attribute>
@@ -158,7 +158,7 @@
 				</fo:inline> 						
 			</xsl:for-each>
 		</fo:block>
-		<fo:block text-align="justify" margin-left="30" margin-right="30"
+		<fo:block text-align="justify" margin-left="45" margin-right="45"
 			padding-bottom="4" line-height="1.25">
 			<xsl:apply-templates select="story" />
 		</fo:block>

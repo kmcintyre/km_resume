@@ -121,8 +121,7 @@
 		<stay>8/2011 &#8211; 4/2013</stay>
 		<story>
 		Key contributor on 
-		flagship products <linkto url="greenchargenet.com/products/greenstation.html">Greenstation</linkto>, and <linkto 
-		url="greenchargenet.com/products/gridsynergy-.html">GridSynergy</linkto> for <linkto url="www.greenchargenet.com">Green Charge Networks</linkto>.
+		flagship products Greenstation, and GridSynergy for <linkto url="www.greenchargenet.com">Green Charge Networks</linkto>.
 		Lead development on prototype of event-driven embedded system controller using 
 		<linkto url="www.python.org">Python</linkto> and <linkto url="twistedmatrix.com">Twisted</linkto>.  Device provided mitigation and curtailment of energy usage
 		through control of inverter battery, photovoltaic, and electric vehicle charging systems.  Monitoring was provided via 
@@ -157,7 +156,6 @@
 			Application featured services that serialized third-party <linkto 
 			url="en.wikipedia.org/wiki/Electronic_Data_Interchange">EDI</linkto> file 
 			into a data warehouse.
-			Incoming data was subsequently audited and transformed to a portal-tier.
 
 			Web application featured
 			<linkto url="en.wikipedia.org/wiki/Single_sign-on">SSO</linkto>
@@ -167,30 +165,9 @@
 			Developed administrative web application for call center representatives to
 			view enrollment changes, and manage portal users.
 
-			Responsibilities included porting application and data from Oracle to Postgres, and
-			porting website from proprietary CMS to Ruby
-			<linkto url="webgen.rubyforge.org">Webgen</linkto>.
-
 			Also, performed key roles through two billing/enrollment vendor
 			transitions, contributing as quality assurance tester, business
 			liaison, and lead developer spanning the lifecycle of the projects.
-
-			Additional development duties included upgrades to multiple
-			<linkto url="be.freelancersunion.org/yp/">Frelancers Union</linkto>
-			web applications, development of member demographic sync with third
-			party administrator, and writing
-			<linkto
-				url="fu-res.org/pdfs/insurance/health/2011/summary-of-benefits-ppo-1.pdf">summary of benefits</linkto>
-			/
-			<linkto
-				url="fu-res.org/pdfs/insurance/health/2011/ppo1-benefits-booklet.pdf">benefit booklet</linkto>
-			PDF generator using
-			<linkto url="xmlgraphics.apache.org/fop/">FOP 0.95</linkto>.
-
-			Also contributed on projects Jobtrackr, Freelancers Union's Facebook application,
-			<linkto url="www.freelancersunion.org/about/buzzmap/index.html">Buzz Map</linkto>
-			, and
-			<linkto url="www.freelancersunion.org/insurance/explore">explore insurance</linkto>.
 		</story>
 
 	</job>
@@ -215,27 +192,12 @@
 			<linkto url="trac.edgewall.org/">tracking software</linkto>
 			to manage bugs and feature requests.
 
-			Participated in end-user focus groups, worked closely with management to identify
-			priorities, and coordinated development schedule.
-
-			Rewrote build scripts, leveraging Jboss Remoting to reduce client size and
-			memory footprint.
-
-			Refactored code to use Log4j and configured Jboss log4j.xml to isolate logging
-			of specific functions, enhancing error monitoring.
-
-			Stabilized server component by coding to J2EE standards, eliminating spec
-			violations such as thread spawning, and non-final public static
-			variables.
-
-			Enhanced client, improving security using IP and MAC addressing, resolving
+			Coded to J2EE standards, improving security using IP and MAC addressing, resolving
 			cross-country latency issues while implementing or fixing
 			bugs/features.
 
 			Acted as DBA: modified schema to implement new features, wrote stored
-			procedures using cursors and common table expressions, scheduled
-			nightly jobs, lead initiative to boost database performance, and
-			eliminated database locking.
+			procedures using cursors and common table expressions.
 
 			Additional duties included Cold Fusion development on the
 			<linkto url="www.onlineccs.com">corporate sales website</linkto>
@@ -293,10 +255,6 @@
 			Established a data center, and lead development through multiple
 			life-cycles, working with graphic designers and a junior developer.
 
-			Coded application using Eclipse, Xdoclet, and Maven that featured a
-			local EJB persistence model, EJB Session Beans, JMS communications
-			incorporating 5 websites, and JAAS method level role association.
-
 			Written with Xdoclet to be application server and database agnostic,
 			and ran seamlessly on Jboss/MySQL and WebLogic/Oracle infrastructure.
 
@@ -326,42 +284,13 @@
 			JMS topics for probationer alerts, unit testing with JUnit, and MVC
 			architecture with Struts form handling.
 
-			Additional duties included Cold Fusion work on intranet website.
-
 		</story>
 	</job>
-
-	<job>
-		<title>Consultant</title>
-		<company>MTVi.com</company>
-		<stay>9/2000 &#8211; 3/2001</stay>
-		<story>
-
-			Consultant to MTVi.com, establishing Q &amp; A methodologies, and
-			lead testing on ecommerce initiative.
-
-			Installed
-			<linkto url="www.bugzilla.org">bug tracking software</linkto>
-			on Redhat 7.0, configuring Perl scripts to eliminate unused features.
-
-			Wrote test cases, performed load testing, and mentored developers in
-			best practices.
-
-			Initiated weekly meetings to review bugs, and coordinate development and
-			release schedules.
-
-			Authored perl 404 finder to test targeted website for missing images.
-
-		</story>
-	</job>
-
-
 	<job>
 		<title>Lead Developer</title>
 		<company>Volatile Media</company>
 		<stay>3/1999 &#8211; 8/2000</stay>
 		<story>
-
 			Lead developer for Volatile Media, owner of multimedia start-up EZCD.com.
 
 			Responsible for production infrastructure of a custom CD burning
@@ -376,8 +305,7 @@
 
 			Responsible for interviewing/hiring junior developers and managed aspects of a
 			small office including networking, Exchange server, and ISP
-			relationships.
-			
+			relationships.			
 		</story>
 	</job>
 
@@ -397,9 +325,6 @@
 			Lead developer of call center software employing 150 people authoring
 			html forms, db schema, stored procedures, and nightly scheduled
 			tasks.
-
-			Developed content naming convention and lead development of site scheduler for
-			managing updates, mentoring designers in content creation.
 
 			Participated in data center re-location and conversion from Cold
 			Fusion/MSSQL to ATG Dynamo/Oracle.
