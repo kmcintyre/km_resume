@@ -30,16 +30,16 @@ public class Resume {
      * @param args command-line arguments
      */
 	
-	public static void doit(String xml, String xsl, String output) throws Exception {
+	public static void doit(String dirPrefix, String xml, String xsl, String output) throws Exception {
         // Setup directories
         File baseDir = new File(".");
         File outDir = new File(baseDir, "out");
-        File resumeDir = new File(baseDir, "in");
+        File xmlDir = new File(baseDir, "in/" + dirPrefix);
         outDir.mkdirs();
 
         // Setup input and output files            
-        File xmlfile = new File(resumeDir, xml);
-        File xsltfile = new File(resumeDir, xsl);
+        File xmlfile = new File(xmlDir, xml);
+        File xsltfile = new File(xmlDir, xsl);
         File pdffile = new File(outDir, output);
         System.out.println("Input: XML (" + xmlfile + ")");
         System.out.println("Stylesheet: " + xsltfile);
@@ -87,7 +87,8 @@ public class Resume {
             //File outDir = new File(baseDir, "out");
             //outDir.mkdirs();
 
-            doit("resume.xml","style.xsl", "Resume_of_Kevin_McIntyre.pdf");
+            doit("resume", "resume.xml","style.xsl", "Resume_of_Kevin_McIntyre.pdf");
+            doit("cover", "cover.xml","style.xsl", "Cover_Letter_of_Kevin_McIntyre.pdf");
             
             // Setup input and output files            
             //File xmlfile = new File(baseDir, );

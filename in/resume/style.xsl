@@ -9,7 +9,7 @@
 		<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" >
 			<fo:layout-master-set>
 				<fo:simple-page-master master-name="simple"
-					page-height="11in" page-width="9in" margin-top="1in"
+					page-height="11in" page-width="9in" margin-top=".75in"
 					margin-bottom="1in" margin-left="1in" margin-right="1in">
 					<fo:region-body />
 				</fo:simple-page-master>
@@ -147,7 +147,7 @@
 	<xsl:template match="project">
 		<fo:block>
 			<xsl:for-each select="linkto">
-				<fo:inline  padding="1mm" font-size="14pt" font-weight="bold">
+				<fo:inline  padding="1mm" font-size="12pt" font-weight="italic">
 					<fo:basic-link>
 							<xsl:attribute name="external-destination">url('http://<xsl:value-of
 								select="@url" />')</xsl:attribute>
@@ -247,7 +247,7 @@
 				</fo:basic-link>
 			</fo:block>
 			<fo:block  font-size="10.1pt">
-				github:<fo:basic-link external-destination="url('http://github.com/kmcintyre')"
+				github<fo:basic-link padding-left=".5mm" external-destination="url('http://github.com/kmcintyre')"
 					text-decoration="underline" color="#0000CC" >
 					<xsl:value-of select="github" />
 				</fo:basic-link>

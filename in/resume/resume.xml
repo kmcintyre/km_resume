@@ -21,7 +21,7 @@
 	<skill title="Infrastructure">
 		<list>
 			Amazon AWS,		
-			Disaster Recovery,
+			D/R,
 			Security,
 			System Admin
 		</list>
@@ -36,7 +36,7 @@
 
 	<skill title="Servers">
 		<list>
-			Apache, Jboss, Nginx, Tomcat
+			Apache, Jboss, Nginx, Tomcat, Twisted
 		</list>
 	</skill>
 
@@ -49,8 +49,8 @@
 	<header>
 		<title>Objective</title>
 		<description>
-			Seeking a position in software development, acting as lead developer, 
-			systems architect, project manager, or other business critical IT role.
+			Seeking positions within software development acting as lead developer, 
+			systems architect, project manager or other software critical role.
 		</description>
 	</header>
 
@@ -59,24 +59,24 @@
 		<description>
 			From 1996 through 2000 my experience was in coding all
 			aspects of the web with ASP, Perl, Cold Fusion, and MSSQL.  Between 2000 and 2008 I 
-			focused primarily on open source technologies, with an emphasis on java, and 
-			J2EE development.  Since 2008, I've deepened my exposure to and utilization of open 
-			source software, delivering efficient, and secure solutions across a variety of business 
-			needs.  
+			focused primarily on open source technologies with an emphasis on java, and 
+			J2EE development.  Since, I've deepened my exposure to and utilization of open 
+			source software, delivering and securing solutions to any need.  
 		</description>
 		<description>
-			As a member of a team, and part of an organization, I've always tried to be a fun dependable  
-			co-worker, believing that successful software is a combination of clear objectives, and team 
-			cohesion.  My best work is on projects that I find innately scientific or curious, either technically 
-			or from a fundamental business perspective.     
+			As a member of a team and part of an organization, I've always tried to be a fun dependable  
+			co-worker, believing that successful software is a combination of clear objectives and team 
+			cohesion.     
 		</description>
 		<description>
-			My development philosophy is Agile based, preferring short sprints with tangible improvements that 
-			can be tested.  I enjoy mentoring others, but am equally happy learning something new.  My chief strength 
-			is conceptualizing business logic as sound, secure software.
+			My development philosophy is tool based, preferring tools of product discovery and delivery.  
+			Tools as a means of useful software utilized during development cycles, that can act in Agile aspects delivering 
+			early and often, but also as a means of research and selection, and ultimately also non-pollutive for negative work 
+			in that some tools are simply left behind. 
 		</description>
 		<description>
-			Most recently I have pursued software project within scopes of personal interest to further my learning of cloud based development.
+			Most recently I have pursued software projects within scopes of personal interest to further my learning of 
+			cloud based development.
 		</description>		
 	</header>
 	<project>
@@ -84,21 +84,22 @@
 		<linkto url="www.athleets.com">www.athleets.com</linkto>
 		<story>
 			Contextualize tweet streams across professional sports, and politics powered by Twisted, QT, Autobahn, DynamoDB, S3, Cloudfront.  
-			Rrefining, curation software that tracks people as the enter, mutate within, and exit contextual groups as an extension of twitter.com.
+			Rrefining, curation software that tracks people as they enter, mutate within, and exit contextual groups as an extension of twitter.com.
 		</story>
 	</project>
 	<project>
 		<linkto url="card.nwice.com">card.nwice.com</linkto>
 		<linkto url="www.blackjack4all.com">www.blackjack4all.com</linkto>
 		<story>
-			Website exploring gameplay at the intersection of javascript, 2d-context, and mutual simulation.  Gameplay written in JQuery, RequireJS, Node.js with 
-			in browswer graphics rendering in a 2d-context. 		
+			Websites exploring gameplay at the intersection of javascript, 2d-context, and mutual simulation.  Gameplay written in JQuery, RequireJS, Node.js with 
+			in browswer graphics rendering in a 2d-context.  End goal is to have card games that play in multiple-player and stand-alone equally well.
 		</story>
 	</project>	
 	<project>
-		<linkto url="scewpt.com">scewpt.com</linkto>
+		<linkto url="scewpt.com/inbox">Scewpt SMTP</linkto> 
+		<linkto url="scewpt.com/mg">Morning Google</linkto>
 		<story>
-			Indisposable email with AWS ties-in, SMTP Command and control system to EC2 job creation running within Amazon Web Service. 
+			Indisposable email with AWS ties-in, SMTP Command and control system to EC2 job creation running within Amazon Web Service.  SMTP command/control. 
 		</story>
 	</project>			
 	<job>
@@ -168,8 +169,7 @@
 
 			Responsibilities included porting application and data from Oracle to Postgres, and
 			porting website from proprietary CMS to Ruby
-			<linkto url="webgen.rubyforge.org">Webgen</linkto>
-			.
+			<linkto url="webgen.rubyforge.org">Webgen</linkto>.
 
 			Also, performed key roles through two billing/enrollment vendor
 			transitions, contributing as quality assurance tester, business
