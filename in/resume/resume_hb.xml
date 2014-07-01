@@ -3,10 +3,10 @@
 
 	<contact>
 		<name>Kevin J. McIntyre</name>
-		<address1>123 Fake St.</address1>
-		<address2>Anytown, XX 00000</address2>
-		<phone>(xxx) xxx-xxx</phone>
-		<email>email@noway.com</email>
+		<address1></address1>
+		<address2>Huntington Beach, CA 92647</address2>
+		<phone>(718) 249-5058</phone>
+		<email>kevin70@yahoo.com</email>
 	</contact>
 
 	<marquee>
@@ -27,7 +27,7 @@
 
 	<skill title="J2EE">
 		<list>
-			EJB, JMS, JTA, Hibernate, Servlets, SOAP, Spring
+			EJB, JMS, JTA, Hibernate, Rest, Servlets, Spring, Web Services
 		</list>
 	</skill>
 
@@ -51,7 +51,7 @@
 
 	<skill title="UI">
 		<list>
-			AJAX, FOP, HTML, POI, Javascript, JQuery, JSON
+			AJAX, FOP, GWT, HTML, POI, Javascript, JQuery, JSON
 		</list>
 	</skill>
 
@@ -76,20 +76,34 @@
 		<description>
 			As a member of a team, and part of an organization, I've always tried to be a fun dependable  
 			co-worker, believing that successful software is a combination of clear objectives, and team 
-			cohesion.  My best work is on projects that I find innately scientific curious, either technically 
+			cohesion.  My best work is on projects that I find innately scientific or curious, either technically 
 			or from a fundamental business perspective.     
 		</description>
 		<description>
 			My development philosophy is Agile based, preferring short sprints with tangible improvements that 
-			are easily integrated.  I enjoy mentoring others, but am equally happy learning something new.  My strengths 
+			can be tested.  I enjoy mentoring others, but am equally happy learning something new.  My strengths 
 			are best utilized in both the back-end and middle-tier conceptualizing business logic as sound, secure software.
 		</description>
 	</header>
 
 	<job>
+		<title>Consultant</title>
+		<company>Esri</company>
+		<stay>4/2013 &#8211; 7/2013</stay>
+		<story>
+		Java architecture on ecommerce portion of <linkto url="developers.arcgis.com">ArcGIS for Developers</linkto>.
+		Multi-tiered maven project, bridging <linkto url="www.salesforce.com/us/developer/docs/api/index.htm">Salesforce API</linkto> with 
+		<linkto url="www.springsource.org">Spring</linkto> and <linkto url="jersey.java.net">Java Jersey</linkto>, 
+		serving rest-based json to javascript clients.  Included components: <linkto url="memcached.org">Memcached</linkto>, <linkto url="aws.amazon.com/elasticache">Amazon ElastiCache</linkto>,
+		<linkto url="testng.org">TestNG</linkto>, and <linkto url="jackson.codehaus.org">Java Jackson</linkto>.  
+		Working environment was Agile based with an emphasis on test driven development.
+		</story>
+	</job>
+
+	<job>
 		<title>Senior Developer</title>
 		<company>Green Charge Networks</company>
-		<stay>8/2011 &#8211;</stay>
+		<stay>8/2011 &#8211; 12/2012</stay>
 		<story>
 		Key contributor on 
 		flagship products <linkto url="greenchargenet.com/products/greenstation.html">Greenstation</linkto>, and <linkto 
@@ -157,14 +171,12 @@
 			<linkto
 				url="fu-res.org/pdfs/insurance/health/2011/ppo1-benefits-booklet.pdf">benefit booklet</linkto>
 			PDF generator using
-			<linkto url="xmlgraphics.apache.org/fop/">FOP 0.95</linkto>
-			.
+			<linkto url="xmlgraphics.apache.org/fop/">FOP 0.95</linkto>.
 
 			Also contributed on projects Jobtrackr, Freelancers Union's Facebook application,
 			<linkto url="www.freelancersunion.org/about/buzzmap/index.html">Buzz Map</linkto>
 			, and
-			<linkto url="www.freelancersunion.org/insurance/explore">explore insurance</linkto>
-			.
+			<linkto url="www.freelancersunion.org/insurance/explore">explore insurance</linkto>.
 		</story>
 
 	</job>
@@ -214,8 +226,7 @@
 			Additional duties included Cold Fusion development on the
 			<linkto url="www.onlineccs.com">corporate sales website</linkto>
 			, and ASP.net development on the
-			<linkto url="www.crunch.com">public facing website</linkto>
-			.
+			<linkto url="www.crunch.com">public facing website</linkto>.
 
 		</story>
 	</job>
@@ -249,8 +260,7 @@
 
 			Additional duties included PHP scripting on fulfillment system, and development
 			of
-			<linkto url="mediafactory.iamplify.com">media tools website</linkto>
-			.
+			<linkto url="mediafactory.iamplify.com">media tools website</linkto>.
 
 		</story>
 	</job>
@@ -280,8 +290,7 @@
 
 			<linkto url="www.rockport.com">Rockport</linkto>
 			, and
-			<linkto url="www.dfking.com">DFKing</linkto>
-			.
+			<linkto url="www.dfking.com">DFKing</linkto>.
 
 		</story>
 	</job>
@@ -354,7 +363,7 @@
 			Responsible for interviewing/hiring junior developers and managed aspects of a
 			small office including networking, Exchange server, and ISP
 			relationships.
-
+			
 		</story>
 	</job>
 

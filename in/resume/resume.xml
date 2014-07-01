@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+
+	<contact>
+		<name>Kevin J. McIntyre</name>
+		<address1>14371 Riviera Dr.</address1>
+		<address2>Huntington Beach, CA</address2>
+		<phone>(714) 642-9024</phone>
+		<email>kevin70@yahoo.com</email>
+		<github>kmcintyre</github>
+	</contact>
+
+	<skill title="Data">
+		<list>
+			MSSQL, MySQL, 
+			Oracle, Postgres, 
+			Redis, DynamoDB
+		</list>
+	</skill>
+
+	<skill title="Infrastructure">
+		<list>
+			Amazon AWS,		
+			Disaster Recovery,
+			Security,
+			System Admin
+		</list>
+	</skill>
+
+	<skill title="Languages">
+		<list>
+		    Android, Hibernate, GWT, J2EE, JQuery, JSON, NodeJS, Python, 
+		    Qt, Rest, RequireJS, Spring, Twisted, WebSocket, Web Services, XSLT			
+		</list>
+	</skill>
+
+	<skill title="Servers">
+		<list>
+			Apache, Jboss, Nginx, Tomcat
+		</list>
+	</skill>
+
+	<skill title="Tools">
+		<list>
+			Eclipse, Git/SVN, Jenkins, Junit, Linux, Maven, Ubuntu
+		</list>
+	</skill>
+
+	<header>
+		<title>Objective</title>
+		<description>
+			Seeking a position in software development, acting as lead developer, 
+			systems architect, project manager, or other business critical IT role.
+		</description>
+	</header>
+
+	<header>
+		<title>Overview</title>
+		<description>
+			From 1996 through 2000 my experience was in coding all
+			aspects of the web with ASP, Perl, Cold Fusion, and MSSQL.  Between 2000 and 2008 I 
+			focused primarily on open source technologies, with an emphasis on java, and 
+			J2EE development.  Since 2008, I've deepened my exposure to and utilization of open 
+			source software, delivering efficient, and secure solutions across a variety of business 
+			needs.  
+		</description>
+		<description>
+			As a member of a team, and part of an organization, I've always tried to be a fun dependable  
+			co-worker, believing that successful software is a combination of clear objectives, and team 
+			cohesion.  My best work is on projects that I find innately scientific or curious, either technically 
+			or from a fundamental business perspective.     
+		</description>
+		<description>
+			My development philosophy is Agile based, preferring short sprints with tangible improvements that 
+			can be tested.  I enjoy mentoring others, but am equally happy learning something new.  My chief strength 
+			is conceptualizing business logic as sound, secure software.
+		</description>
+		<description>
+			Most recently I have pursued software project within scopes of personal interest to further my learning of cloud based development.
+		</description>		
+	</header>
+	<project>
+		<linkto url="www.junkeet.com">www.junkeet.com</linkto>
+		<linkto url="www.athleets.com">www.athleets.com</linkto>
+		<story>
+			Contextualize tweet streams across professional sports, and politics powered by Twisted, QT, Autobahn, DynamoDB, S3, Cloudfront.  
+			Rrefining, curation software that tracks people as the enter, mutate within, and exit contextual groups as an extension of twitter.com.
+		</story>
+	</project>
+	<project>
+		<linkto url="card.nwice.com">card.nwice.com</linkto>
+		<linkto url="www.blackjack4all.com">www.blackjack4all.com</linkto>
+		<story>
+			Website exploring gameplay at the intersection of javascript, 2d-context, and mutual simulation.  Gameplay written in JQuery, RequireJS, Node.js with 
+			in browswer graphics rendering in a 2d-context. 		
+		</story>
+	</project>	
+	<project>
+		<linkto url="scewpt.com">scewpt.com</linkto>
+		<story>
+			Indisposable email with AWS ties-in, SMTP Command and control system to EC2 job creation running within Amazon Web Service. 
+		</story>
+	</project>			
+	<job>
+		<title>Consultant</title>
+		<company>Esri</company>
+		<stay>4/2013 &#8211; 7/2013</stay>
+		<story>
+		Java architecture on ecommerce portion of <linkto url="developers.arcgis.com">ArcGIS for Developers</linkto>.
+		Multi-tiered maven project, bridging <linkto url="www.salesforce.com/us/developer/docs/api/index.htm">Salesforce API</linkto> with 
+		<linkto url="www.springsource.org">Spring</linkto> and <linkto url="jersey.java.net">Java Jersey</linkto>, 
+		serving rest-based json to javascript clients.  Included components: <linkto url="memcached.org">Memcached</linkto>, <linkto url="aws.amazon.com/elasticache">Amazon ElastiCache</linkto>,
+		<linkto url="testng.org">TestNG</linkto>, and <linkto url="jackson.codehaus.org">Java Jackson</linkto>.  
+		Working environment was Agile based with an emphasis on test driven development.
+		</story>
+	</job>
+	<job>
+		<title>Senior Developer</title>
+		<company>Green Charge Networks</company>
+		<stay>8/2011 &#8211; 4/2013</stay>
+		<story>
+		Key contributor on 
+		flagship products <linkto url="greenchargenet.com/products/greenstation.html">Greenstation</linkto>, and <linkto 
+		url="greenchargenet.com/products/gridsynergy-.html">GridSynergy</linkto> for <linkto url="www.greenchargenet.com">Green Charge Networks</linkto>.
+		Lead development on prototype of event-driven embedded system controller using 
+		<linkto url="www.python.org">Python</linkto> and <linkto url="twistedmatrix.com">Twisted</linkto>.  Device provided mitigation and curtailment of energy usage
+		through control of inverter battery, photovoltaic, and electric vehicle charging systems.  Monitoring was provided via 
+		reporting to <linkto url="redis.io">Redis</linkto>, and was controlled via GridSynergy network operations center, securely hosted in <linkto url="aws.amazon.com">Amazon Web 
+		Services</linkto>.  Developed real-time charting system using <linkto url="https://developers.google.com/chart/interactive/docs/reference">Google Visualization</linkto>, a tool 
+		used extensively during testing, operations, and new business development.  Managed the release of multiple iterations of the software across the installation sites at 7-11, and 
+		Avis car rental.  Contributor to corporate IP, authoring several patents on grid-tied battery control systems.  Contributing developer on network operation J2EE software, using 
+		<linkto url="maven.apache.org">Maven</linkto>, <linkto url="tomcat.apache.org">Tomcat</linkto>, <linkto url="www.hibernate.org">Hibernate</linkto>, 
+		<linkto url="www.springsource.org">Spring</linkto>, and <linkto url="developers.google.com/web-toolkit">Google Web Toolkit</linkto>.		   
+		</story>
+	</job>
+
+	<job>
+		<title>Java Architect</title>
+		<company>Freelancers Union</company>
+		<stay>4/2008 &#8211; 2/2011</stay>
+		<story>
+			Lead developer on a
+			<linkto url="www.freelancersinsuranceco.com/">medical portal</linkto>
+			for the Freelancers Union.
+
+			Key member during project planning phase, advising on software
+			infrastructure, researching solutions, and authoring project
+			documentation.
+
+			Implemented project using Eclipse, SVN, Maven, Xdoclet, MantisBT targeting
+			Linux/CentOS running Apache, Jboss 4.2.3, and Oracle 11g.
+
+			Developed standards-based enterprise application with hibernate model, a
+			business-tier, and servlet/jsp controllers/views.
+
+			Application featured services that serialized third-party <linkto 
+			url="en.wikipedia.org/wiki/Electronic_Data_Interchange">EDI</linkto> file 
+			into a data warehouse.
+			Incoming data was subsequently audited and transformed to a portal-tier.
+
+			Web application featured
+			<linkto url="en.wikipedia.org/wiki/Single_sign-on">SSO</linkto>
+			modules to view patient claims information on third-party websites
+			written in OpenSAML and SAML 2.0.
+
+			Developed administrative web application for call center representatives to
+			view enrollment changes, and manage portal users.
+
+			Responsibilities included porting application and data from Oracle to Postgres, and
+			porting website from proprietary CMS to Ruby
+			<linkto url="webgen.rubyforge.org">Webgen</linkto>
+			.
+
+			Also, performed key roles through two billing/enrollment vendor
+			transitions, contributing as quality assurance tester, business
+			liaison, and lead developer spanning the lifecycle of the projects.
+
+			Additional development duties included upgrades to multiple
+			<linkto url="be.freelancersunion.org/yp/">Frelancers Union</linkto>
+			web applications, development of member demographic sync with third
+			party administrator, and writing
+			<linkto
+				url="fu-res.org/pdfs/insurance/health/2011/summary-of-benefits-ppo-1.pdf">summary of benefits</linkto>
+			/
+			<linkto
+				url="fu-res.org/pdfs/insurance/health/2011/ppo1-benefits-booklet.pdf">benefit booklet</linkto>
+			PDF generator using
+			<linkto url="xmlgraphics.apache.org/fop/">FOP 0.95</linkto>.
+
+			Also contributed on projects Jobtrackr, Freelancers Union's Facebook application,
+			<linkto url="www.freelancersunion.org/about/buzzmap/index.html">Buzz Map</linkto>
+			, and
+			<linkto url="www.freelancersunion.org/insurance/explore">explore insurance</linkto>.
+		</story>
+
+	</job>
+
+	<job>
+		<title>Senior Consultant</title>
+		<company>Crunch Fitness</company>
+		<stay>10/2006 &#8211; 3/2008</stay>
+		<story>
+
+			Engineered enterprise Swing application for an industry leading
+			health club chain.
+
+			Application featured JNLP WebStart client brokering calls via EJB SessionBeans
+			to a server, running Jboss 4.0.5 and MSSQL 2005.
+
+			Took ownership of source code (2500 source files/1800 sql scripts) and
+			release cycle from 3rd-party vendor, responsible for all facets of
+			development.
+
+			Established a test environment, installed
+			<linkto url="trac.edgewall.org/">tracking software</linkto>
+			to manage bugs and feature requests.
+
+			Participated in end-user focus groups, worked closely with management to identify
+			priorities, and coordinated development schedule.
+
+			Rewrote build scripts, leveraging Jboss Remoting to reduce client size and
+			memory footprint.
+
+			Refactored code to use Log4j and configured Jboss log4j.xml to isolate logging
+			of specific functions, enhancing error monitoring.
+
+			Stabilized server component by coding to J2EE standards, eliminating spec
+			violations such as thread spawning, and non-final public static
+			variables.
+
+			Enhanced client, improving security using IP and MAC addressing, resolving
+			cross-country latency issues while implementing or fixing
+			bugs/features.
+
+			Acted as DBA: modified schema to implement new features, wrote stored
+			procedures using cursors and common table expressions, scheduled
+			nightly jobs, lead initiative to boost database performance, and
+			eliminated database locking.
+
+			Additional duties included Cold Fusion development on the
+			<linkto url="www.onlineccs.com">corporate sales website</linkto>
+			, and ASP.net development on the
+			<linkto url="www.crunch.com">public facing website</linkto>.
+
+		</story>
+	</job>
+
+	<job>
+		<title>Software Developer</title>
+		<company>Iamplify.com</company>
+		<stay>7/2005 &#8211; 8/2006</stay>
+		<story>
+
+			Lead software development at
+			<linkto url="www.iamplify.com">Iamplify.com</linkto>.
+
+			Server administrator for linux servers running Apache2 (mod_php &amp;
+			<linkto url="www.oscommerce.com">OSCommerce</linkto>), Jboss, Ruby, and MySQL.
+
+			Project lead for
+			<linkto url="www.iamplify.com/sell">embedded flash player</linkto>
+			initiative, and lead developer of associated reporting tool,
+			providing key metrics such as registrations, purchases, and
+			downloads.
+
+			Lead development on co-branded storefronts (<linkto url="harpercollins.iamplify.com">HarperCollins</linkto>) 
+			written using Eclipse, Maven, and Xdoclet.
+
+			Coded servlets, listeners, and taglibs, utilizing a custom templating
+			engine.
+
+			Developed deployment tool enabling designers and content managers to easily
+			tweak, test and deploy each storefront.
+
+			Additional duties included PHP scripting on fulfillment system, and development
+			of
+			<linkto url="mediafactory.iamplify.com">media tools website</linkto>.
+
+		</story>
+	</job>
+
+	<job>
+		<title>Software Consultant</title>
+		<company>Blueprint</company>
+		<stay>1/2004 &#8211; 2/2005</stay>
+		<story>
+			Consultant to
+			<linkto url="blueprint.com">Blueprint</linkto>
+			, a pharmaceutical branding company.
+
+			Lead developer of application connecting doctors and patients.
+
+			Established a data center, and lead development through multiple
+			life-cycles, working with graphic designers and a junior developer.
+
+			Coded application using Eclipse, Xdoclet, and Maven that featured a
+			local EJB persistence model, EJB Session Beans, JMS communications
+			incorporating 5 websites, and JAAS method level role association.
+
+			Written with Xdoclet to be application server and database agnostic,
+			and ran seamlessly on Jboss/MySQL and WebLogic/Oracle infrastructure.
+
+			Additional duties included work on client websites such as
+
+			<linkto url="www.rockport.com">Rockport</linkto>
+			, and
+			<linkto url="www.dfking.com">DFKing</linkto>.
+
+		</story>
+	</job>
+
+	<job>
+		<title>Consultant</title>
+		<company>NYC Department of Probation</company>
+		<stay>12/2002 &#8211; 1/2004</stay>
+		<story>
+
+			Consultant to NYC Department of Probation, lead developer on automated
+			probationer check-in system, managing 4 junior developers.
+
+			Application utilized touch-screen monitor, and active-x controllers
+			for web-cameras, palm-scanners, and printing.
+
+			Developed using with Eclipse, Ant, and Xdoclet using remote EJB CMP Beans
+			connecting to Informix database,
+			JMS topics for probationer alerts, unit testing with JUnit, and MVC
+			architecture with Struts form handling.
+
+			Additional duties included Cold Fusion work on intranet website.
+
+		</story>
+	</job>
+
+	<job>
+		<title>Consultant</title>
+		<company>MTVi.com</company>
+		<stay>9/2000 &#8211; 3/2001</stay>
+		<story>
+
+			Consultant to MTVi.com, establishing Q &amp; A methodologies, and
+			lead testing on ecommerce initiative.
+
+			Installed
+			<linkto url="www.bugzilla.org">bug tracking software</linkto>
+			on Redhat 7.0, configuring Perl scripts to eliminate unused features.
+
+			Wrote test cases, performed load testing, and mentored developers in
+			best practices.
+
+			Initiated weekly meetings to review bugs, and coordinate development and
+			release schedules.
+
+			Authored perl 404 finder to test targeted website for missing images.
+
+		</story>
+	</job>
+
+
+	<job>
+		<title>Lead Developer</title>
+		<company>Volatile Media</company>
+		<stay>3/1999 &#8211; 8/2000</stay>
+		<story>
+
+			Lead developer for Volatile Media, owner of multimedia start-up EZCD.com.
+
+			Responsible for production infrastructure of a custom CD burning
+			service, featuring samples of music as well as game demos for
+			creating a custom mixed media CD.
+
+			Developed websites using MSSQL, Cold Fusion, and java services supporting
+			back-end manufacturing.
+
+			Developed mailing-list, calendar, and content management tools allowing
+			artists to promote their music.
+
+			Responsible for interviewing/hiring junior developers and managed aspects of a
+			small office including networking, Exchange server, and ISP
+			relationships.
+			
+		</story>
+	</job>
+
+
+	<job>
+		<title>Developer</title>
+		<company>Lexitrans</company>
+		<stay>10/1996 &#8211; 5/1999</stay>
+		<story>
+			Developer for Lexitrans, an online credit card transaction company.
+
+			Coded and maintained state of the art membership billing system supporting
+			300,000 active members with real-time,
+			and batch transactions using Cold Fusion, MSSQL, and X.25 communications
+			for credit card authorization/transaction.
+
+			Lead developer of call center software employing 150 people authoring
+			html forms, db schema, stored procedures, and nightly scheduled
+			tasks.
+
+			Developed content naming convention and lead development of site scheduler for
+			managing updates, mentoring designers in content creation.
+
+			Participated in data center re-location and conversion from Cold
+			Fusion/MSSQL to ATG Dynamo/Oracle.
+		</story>
+	</job>
+</resume>

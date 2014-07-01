@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+
+  <contact>
+	<name>Kevin J. McIntyre</name>
+	<address1>14371 Riviera Dr.</address1>
+	<address2>Huntington Beach, CA 92647</address2>
+	<phone>(718) 249-5058</phone>
+	<email>kevin70@yahoo.com</email>
+  </contact>
+  
+    <header>
+    	<description/>
+	</header>
+	<header>    	
+		<description>
+		In response to "Python Developer (Huntington Beach)" at 
+		<linkto url="http://orangecounty.craigslist.org/sof/4416431188.html">craigslist.org</linkto>, 
+		my resume for consideration.  
+		</description>
+	</header>
+	<header>		
+		<description>
+		I highlight my work for Greencharge Networks as being relevant in terms of Python, in particular Twisted.
+		</description>
+	</header>
+	<header>				
+		<description>
+		Please contact me at 718-249-5058 or kevin70@yahoo.com to arrange an interview.
+		</description>
+	</header>
+	<header>		
+		<description>
+		Kevin McIntyre		 
+		</description>
+	</header>
+  
+
+</resume>

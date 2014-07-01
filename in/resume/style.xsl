@@ -6,33 +6,31 @@
 		indent="yes" />
 
 	<xsl:template match="resume">
-		<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+		<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" >
 			<fo:layout-master-set>
 				<fo:simple-page-master master-name="simple"
-					page-height="11in" page-width="8.5in" margin-top="1in"
-					margin-bottom=".85in" margin-left="1in" margin-right="1in">
+					page-height="11in" page-width="9in" margin-top="1in"
+					margin-bottom="1in" margin-left="1in" margin-right="1in">
 					<fo:region-body />
 				</fo:simple-page-master>
 			</fo:layout-master-set>
 
 			<fo:page-sequence master-reference="simple">
 				<fo:flow flow-name="xsl-region-body">
-					<fo:block font-size="10pt" font-family="Times">
+					<fo:block font-size="11pt" font-family="Helvetica">
 
 						<fo:table table-layout="fixed" width="100%">
 							<fo:table-column column-width="1.8in" />
-							<fo:table-column column-width="4.7in" />
+							<fo:table-column column-width="5.7in" />
 							<fo:table-body>
 								<fo:table-row>
 									<fo:table-cell>
 										<xsl:apply-templates select="contact" />
-										<xsl:apply-templates select="marquee" />
 										<xsl:apply-templates select="skill" />
 									</fo:table-cell>
 									<fo:table-cell border-style="solid" border-right="0"
 										border-left="0" border-top="0" border-bottom="0">
-										<fo:block margin-top="37" margin-left="25"
-											margin-right="25">
+										<fo:block margin-top="37" margin-left="25" margin-right="25">
 											<xsl:apply-templates select="header" />
 										</fo:block>
 									</fo:table-cell>
@@ -41,16 +39,37 @@
 						</fo:table>
 
 						<fo:table table-layout="fixed" width="100%">
-							<fo:table-column column-width="6.5in" />
+							<fo:table-column column-width="7in" />
 							<fo:table-body>
 								<fo:table-row>
 									<fo:table-cell>
 										<fo:block line-height="2.0" letter-spacing="4pt"
-											padding-top="10">
+											padding-top="12" padding-bottom="6">
+											Projects
+										</fo:block>
+
+										<xsl:apply-templates select="project" />
+
+									</fo:table-cell>
+								</fo:table-row>							
+								<fo:table-row>
+									<fo:table-cell>
+										<fo:block line-height="2.0" letter-spacing="4pt"
+											padding-top="12" padding-bottom="6">
 											Professional Experience
 										</fo:block>
 
 										<xsl:apply-templates select="job" />
+
+										<!-- 
+
+										<xsl:apply-templates select="job[1]" />
+										<xsl:apply-templates select="job[2]" />
+										<xsl:apply-templates select="job[3]" />
+										<xsl:apply-templates select="job[4]" />
+										<xsl:apply-templates select="job[5]" />
+										
+										-->
 
 									</fo:table-cell>
 								</fo:table-row>
@@ -62,9 +81,9 @@
 										</fo:block>
 
 										<fo:table table-layout="fixed" width="100%">
-											<fo:table-column column-width="2.166in" />
-											<fo:table-column column-width="2.166in" />
-											<fo:table-column column-width="2.166in" />
+											<fo:table-column column-width="2.333in" />
+											<fo:table-column column-width="2.333in" />
+											<fo:table-column column-width="2.333in" />
 
 											<fo:table-body>
 												<fo:table-row>
@@ -98,7 +117,7 @@
 	</xsl:template>
 
 	<xsl:template match="header">
-		<fo:block margin-left="10">
+		<fo:block margin-left="20">
 			<fo:block line-height="2.4" letter-spacing="4pt">
 				<xsl:value-of select="title" />
 			</fo:block>
@@ -111,23 +130,37 @@
 	<xsl:template match="career">
 		<xsl:apply-templates select="highlight" />
 	</xsl:template>
-
-	<xsl:template match="marquee">
-		<fo:block margin-top="17.5" margin-bottom="17.5" text-align="center"  font-size="10.1pt"> 
-			<xsl:value-of select="." />
-		</fo:block>	
-	</xsl:template>
 	
 	<xsl:template match="skill">
 		<fo:block text-align="left" margin-left="0" padding-top=".5"
 			border-style="solid" border-right="0" border-left="0" border-top="0"
 			border-bottom=".0">
-			<fo:block font-weight="bold" line-height="1.50" font-size="10pt">
+			<fo:block font-weight="bold" line-height="1.50" font-size="11.5pt">
 				<xsl:value-of select="@title" />
 			</fo:block>
-			<fo:block margin-left="10" margin-right="10" font-size="8pt">
+			<fo:block margin-left="10" margin-right="10" font-size="10.1pt">
 				<xsl:value-of select="list" />
 			</fo:block>
+		</fo:block>
+	</xsl:template>
+
+	<xsl:template match="project">
+		<fo:block>
+			<xsl:for-each select="linkto">
+				<fo:inline  padding="1mm" font-size="14pt" font-weight="bold">
+					<fo:basic-link>
+							<xsl:attribute name="external-destination">url('http://<xsl:value-of
+								select="@url" />')</xsl:attribute>
+							<fo:inline color="#0000CC">
+								<xsl:value-of select="." />
+							</fo:inline>
+					</fo:basic-link>
+				</fo:inline> 						
+			</xsl:for-each>
+		</fo:block>
+		<fo:block text-align="justify" margin-left="30" margin-right="30"
+			padding-bottom="4" line-height="1.25">
+			<xsl:apply-templates select="story" />
 		</fo:block>
 	</xsl:template>
 
@@ -135,9 +168,9 @@
 
 		<fo:block>
 			<fo:table table-layout="fixed" width="100%">
-				<fo:table-column column-width="2.166in" />
-				<fo:table-column column-width="2.166in" />
-				<fo:table-column column-width="2.166in" />
+				<fo:table-column column-width="2.333in" />
+				<fo:table-column column-width="2.333in" />
+				<fo:table-column column-width="2.333in" />
 				<fo:table-body>
 					<fo:table-row>
 						<fo:table-cell padding-top="4" padding-bottom="4">
@@ -194,25 +227,31 @@
 
 
 	<xsl:template match="contact">
-		<fo:block text-align="center">
-			<fo:block line-height="1.8" font-weight="bold">
+		<fo:block text-align="center" padding-bottom="4">
+			<fo:block line-height="2" font-weight="bold">
 				<xsl:value-of select="name" />
 			</fo:block>
-			<fo:block font-size="8.5pt">
+			<fo:block font-size="10.1pt">
 				<xsl:value-of select="address1"/>
 			</fo:block>
-			<fo:block font-size="8.5pt">
+			<fo:block font-size="10.1pt">
 				<xsl:value-of select="address2"/>
 			</fo:block>
-			<fo:block font-size="8.5pt">
+			<fo:block font-size="10.1pt">
 				<xsl:value-of select="phone"/>
 			</fo:block>
-			<fo:block  font-size="8.5pt">
+			<fo:block  font-size="10.1pt">
 				<fo:basic-link external-destination="url('mailto:kevin70@yahoo.com')"
 					text-decoration="underline" color="#0000CC" >
 					<xsl:value-of select="email" />
 				</fo:basic-link>
 			</fo:block>
+			<fo:block  font-size="10.1pt">
+				github:<fo:basic-link external-destination="url('http://github.com/kmcintyre')"
+					text-decoration="underline" color="#0000CC" >
+					<xsl:value-of select="github" />
+				</fo:basic-link>
+			</fo:block>			
 		</fo:block>
 	</xsl:template>
 

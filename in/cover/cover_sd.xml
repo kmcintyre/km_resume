@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+
+  <contact>
+	<name>Kevin J. McIntyre</name>
+	<address1>6746 Paseo Del Vista</address1>
+	<address2>Carlsbad, CA 92009</address2>
+	<phone>(718) 249-5058</phone>
+	<email>kevin70@yahoo.com</email>
+  </contact>
+  
+    <header>
+    	<description/>
+	</header>
+	<header>    	
+		<description>
+		In response to "Senior JAVA Engineer - Java Collection package, JMX, REST APIs" at 
+		<linkto url="www.dice.com/job/result/cybercod/AF-JavaIntegration44">www.dice.com</linkto>, 
+		my resume for consideration.  
+		</description>
+	</header>
+	<header>		
+		<description>
+		My years of experience in Java/J2EE development correspond well with the requirements detailed in the job description.		 	
+		</description>
+	</header>
+	<header>				
+		<description>
+		Please contact me at 718-249-5058 or kevin70@yahoo.com to arrange an interview.
+		</description>
+	</header>
+	<header>		
+		<description>
+		Kevin McIntyre		 
+		</description>
+	</header>
+  
+
+</resume>
