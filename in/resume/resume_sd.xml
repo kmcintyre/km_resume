@@ -4,96 +4,123 @@
 	<contact>
 		<name>Kevin J. McIntyre</name>
 		<address1>6746 Paseo Del Vista</address1>
-		<address2>Carlsbad, CA 92009</address2>
-		<phone>(718) 249-5058</phone>
+		<address2>Carlsbad, CA</address2>
+		<phone>(714) 642-9024</phone>
 		<email>kevin70@yahoo.com</email>
+		<web>nwice.com</web>
 	</contact>
 
-	<marquee>
-		Architecture, Data, Design, Operations, Programming 
-	</marquee>
-
-	<skill title="Database">
+	<skill title="Data">
 		<list>
-			MSSQL, MySQL, Oracle, Postgres, Redis
+			MSSQL, MySQL, 
+			Oracle, Postgres, 
+			Redis, DynamoDB
 		</list>
 	</skill>
 
 	<skill title="Infrastructure">
 		<list>
-			Amazon AWS, Backup/Restore, Disaster Recovery
+			Amazon AWS,			
+			Security Admin,
+			System Admin
 		</list>
 	</skill>
 
-	<skill title="J2EE">
+	<skill title="Expertise">
 		<list>
-			EJB, JMS, JTA, Hibernate, Servlets, Spring, Web Services
-		</list>
-	</skill>
-
-	<skill title="Script">
-		<list>
-			Bash, JSP, Perl, PHP, Python, Ruby
+		    Android, Hibernate, GWT, J2EE, JQuery, JSON, NodeJS, Python, 
+		    Qt, Rest, RequireJS, Spring, Twisted, WebSocket, Web Services, XSLT			
 		</list>
 	</skill>
 
 	<skill title="Servers">
 		<list>
-			Apache, Jboss, Nginx, Tomcat
+			Apache, Jboss, Nginx, Tomcat, Twisted
 		</list>
 	</skill>
 
 	<skill title="Tools">
 		<list>
-			Eclipse, Git/SVN, Junit, Linux, Maven, Ubuntu
-		</list>
-	</skill>
-
-	<skill title="UI">
-		<list>
-			AJAX, FOP, GWT, HTML, POI, Javascript, JQuery, JSON
+			ADT, Eclipse, Git/SVN, Jenkins, Junit, Linux, Maven, Trial, Ubuntu
 		</list>
 	</skill>
 
 	<header>
 		<title>Objective</title>
 		<description>
-			Seeking a position in software development, acting as lead developer, 
-			systems architect, project manager, or other business critical IT role.
+			Seeking positions within software development acting as lead developer, 
+			systems architect, or operations principle.
 		</description>
 	</header>
 
 	<header>
-		<title>Overview</title>
-		<description>
-			From 1996 through 2000 my experience was in coding all
-			aspects of the web with ASP, Perl, Cold Fusion, and MSSQL.  Between 2000 and 2008 I 
-			focused primarily on open source technologies, with an emphasis on java, and 
-			J2EE development.  Since 2008, I've deepened my exposure to and utilization of open 
-			source software, delivering efficient, and secure solutions across a variety of business 
-			needs.  
-		</description>
-		<description>
-			As a member of a team, and part of an organization, I've always tried to be a fun dependable  
-			co-worker, believing that successful software is a combination of clear objectives, and team 
-			cohesion.  My best work is on projects that I find innately scientific curious, either technically 
-			or from a fundamental business perspective.     
-		</description>
-		<description>
-			My development philosophy is Agile based, preferring short sprints with tangible improvements that 
-			are easily integrated.  I enjoy mentoring others, but am equally happy learning something new.  My strengths 
-			are best utilized in both the back-end and middle-tier conceptualizing business logic as sound, secure software.
-		</description>
+		<title>Summary</title>
+		<lead>
+			Beginning 1996-2000 my experience was in coding all
+			aspects of the web with ASP, Perl, Cold Fusion, and MSSQL.  2000-2008 I 
+			focused primarily on open source technologies with an emphasis on Linux, apache, java/ 
+			J2EE development.  Since, I've deepened my utilization of open 
+			source software, delivering and securing solutions to any need.  
+		</lead>
+		<lead>
+			As a member of a team and part of an organization, I've always tried to be a fun dependable  
+			co-worker, believing that successful software is a combination of clear objectives and team 
+			cohesion.     
+		</lead>
+		<lead>
+			My development philosophy is tool based, as a means of useful software utilized during all phases of the development cycle; 
+			that can act in Agile aspects - delivering early and often, but also as a means of research and selection, by establishing thresholds/boundaries that yield into operation metrics/visibility. 
+			Ultimately tools acting as infrastructure that are non-pollutive with regards to ease of maintenance and predictable upgrade cycles.
+		</lead>
+		<lead>
+			Most recently I have pursued software projects within personal interest to further my learning of 
+			cloud based development, and reactive based programming.
+		</lead>		
 	</header>
-
+	<project>
+		<linkto url="www.athleets.com">Athleets</linkto>
+		<linkto url="www.junkeet.com">Junkeet</linkto>		
+		<linkto url="www.pokertalon.com">Pokertalon</linkto>
+		<story>
+			Tweet streams with contextualization - sports, politics, poker powered by Twisted, QT, Autobahn, DynamoDB, S3, Cloudfront.  		
+		</story>
+	</project>
+	<project>
+		<linkto url="card.nwice.com">card.nwice.com</linkto>
+		<linkto url="www.blackjack4all.com">www.blackjack4all.com</linkto>
+		<linkto url="card.nwice.com/automate.html">Automated War</linkto>
+		<story>
+			Work exploring gameplay at the intersection of javascript, 2d-context, and mutual simulation.  Written in JQuery, RequireJS, Node.js with 
+			runtime components rendering in 2d canvas.
+		</story>
+	</project>	
+	<project>
+		<linkto url="scewpt.com/inbox">Scewpt SMTP</linkto> 
+		<linkto url="scewpt.com/mg">Morning Google</linkto>
+		<story>
+			Indisposable email via Amazon AWS, SMTP Command/Control system to EC2 job creation running within Amazon Web Service. 
+		</story>
+	</project>			
+	<job>
+		<title>Consultant</title>
+		<company>Esri</company>
+		<stay>4/2013 &#8211; 7/2013</stay>
+		<story>
+		Java architecture on ecommerce portion of <linkto url="developers.arcgis.com">ArcGIS for Developers</linkto>.
+		Multi-tiered maven project, bridging <linkto url="www.salesforce.com/us/developer/docs/api/index.htm">Salesforce API</linkto> with 
+		<linkto url="www.springsource.org">Spring</linkto> and <linkto url="jersey.java.net">Java Jersey</linkto>, 
+		serving rest-based json to javascript clients.  Included components: <linkto url="memcached.org">Memcached</linkto>, <linkto url="aws.amazon.com/elasticache">Amazon ElastiCache</linkto>,
+		<linkto url="testng.org">TestNG</linkto>, and <linkto url="jackson.codehaus.org">Java Jackson</linkto>.  
+		Working environment was Agile based with an emphasis on test driven development.
+		</story>
+	</job>
 	<job>
 		<title>Senior Developer</title>
 		<company>Green Charge Networks</company>
-		<stay>8/2011 &#8211; 12/2012</stay>
+		<stay>8/2011 &#8211; 4/2013</stay>
 		<story>
 		Key contributor on 
-		flagship products <linkto url="greenchargenet.com/products/greenstation.html">Greenstation</linkto>, and <linkto 
-		url="greenchargenet.com/products/gridsynergy-.html">GridSynergy</linkto> for <linkto url="www.greenchargenet.com">Green Charge Networks</linkto>.
+		flagship products Greenstation, and GridSynergy for <linkto url="www.greenchargenet.com">Green Charge Networks</linkto>.
 		Lead development on prototype of event-driven embedded system controller using 
 		<linkto url="www.python.org">Python</linkto> and <linkto url="twistedmatrix.com">Twisted</linkto>.  Device provided mitigation and curtailment of energy usage
 		through control of inverter battery, photovoltaic, and electric vehicle charging systems.  Monitoring was provided via 
@@ -128,7 +155,6 @@
 			Application featured services that serialized third-party <linkto 
 			url="en.wikipedia.org/wiki/Electronic_Data_Interchange">EDI</linkto> file 
 			into a data warehouse.
-			Incoming data was subsequently audited and transformed to a portal-tier.
 
 			Web application featured
 			<linkto url="en.wikipedia.org/wiki/Single_sign-on">SSO</linkto>
@@ -138,31 +164,9 @@
 			Developed administrative web application for call center representatives to
 			view enrollment changes, and manage portal users.
 
-			Responsibilities included porting application and data from Oracle to Postgres, and
-			porting website from proprietary CMS to Ruby
-			<linkto url="webgen.rubyforge.org">Webgen</linkto>
-			.
-
 			Also, performed key roles through two billing/enrollment vendor
 			transitions, contributing as quality assurance tester, business
 			liaison, and lead developer spanning the lifecycle of the projects.
-
-			Additional development duties included upgrades to multiple
-			<linkto url="be.freelancersunion.org/yp/">Frelancers Union</linkto>
-			web applications, development of member demographic sync with third
-			party administrator, and writing
-			<linkto
-				url="fu-res.org/pdfs/insurance/health/2011/summary-of-benefits-ppo-1.pdf">summary of benefits</linkto>
-			/
-			<linkto
-				url="fu-res.org/pdfs/insurance/health/2011/ppo1-benefits-booklet.pdf">benefit booklet</linkto>
-			PDF generator using
-			<linkto url="xmlgraphics.apache.org/fop/">FOP 0.95</linkto>.
-
-			Also contributed on projects Jobtrackr, Freelancers Union's Facebook application,
-			<linkto url="www.freelancersunion.org/about/buzzmap/index.html">Buzz Map</linkto>
-			, and
-			<linkto url="www.freelancersunion.org/insurance/explore">explore insurance</linkto>.
 		</story>
 
 	</job>
@@ -187,27 +191,12 @@
 			<linkto url="trac.edgewall.org/">tracking software</linkto>
 			to manage bugs and feature requests.
 
-			Participated in end-user focus groups, worked closely with management to identify
-			priorities, and coordinated development schedule.
-
-			Rewrote build scripts, leveraging Jboss Remoting to reduce client size and
-			memory footprint.
-
-			Refactored code to use Log4j and configured Jboss log4j.xml to isolate logging
-			of specific functions, enhancing error monitoring.
-
-			Stabilized server component by coding to J2EE standards, eliminating spec
-			violations such as thread spawning, and non-final public static
-			variables.
-
-			Enhanced client, improving security using IP and MAC addressing, resolving
+			Coded to J2EE standards, improving security using IP and MAC addressing, resolving
 			cross-country latency issues while implementing or fixing
 			bugs/features.
 
 			Acted as DBA: modified schema to implement new features, wrote stored
-			procedures using cursors and common table expressions, scheduled
-			nightly jobs, lead initiative to boost database performance, and
-			eliminated database locking.
+			procedures using cursors and common table expressions.
 
 			Additional duties included Cold Fusion development on the
 			<linkto url="www.onlineccs.com">corporate sales website</linkto>
@@ -265,10 +254,6 @@
 			Established a data center, and lead development through multiple
 			life-cycles, working with graphic designers and a junior developer.
 
-			Coded application using Eclipse, Xdoclet, and Maven that featured a
-			local EJB persistence model, EJB Session Beans, JMS communications
-			incorporating 5 websites, and JAAS method level role association.
-
 			Written with Xdoclet to be application server and database agnostic,
 			and ran seamlessly on Jboss/MySQL and WebLogic/Oracle infrastructure.
 
@@ -298,42 +283,13 @@
 			JMS topics for probationer alerts, unit testing with JUnit, and MVC
 			architecture with Struts form handling.
 
-			Additional duties included Cold Fusion work on intranet website.
-
 		</story>
 	</job>
-
-	<job>
-		<title>Consultant</title>
-		<company>MTVi.com</company>
-		<stay>9/2000 &#8211; 3/2001</stay>
-		<story>
-
-			Consultant to MTVi.com, establishing Q &amp; A methodologies, and
-			lead testing on ecommerce initiative.
-
-			Installed
-			<linkto url="www.bugzilla.org">bug tracking software</linkto>
-			on Redhat 7.0, configuring Perl scripts to eliminate unused features.
-
-			Wrote test cases, performed load testing, and mentored developers in
-			best practices.
-
-			Initiated weekly meetings to review bugs, and coordinate development and
-			release schedules.
-
-			Authored perl 404 finder to test targeted website for missing images.
-
-		</story>
-	</job>
-
-
 	<job>
 		<title>Lead Developer</title>
 		<company>Volatile Media</company>
 		<stay>3/1999 &#8211; 8/2000</stay>
 		<story>
-
 			Lead developer for Volatile Media, owner of multimedia start-up EZCD.com.
 
 			Responsible for production infrastructure of a custom CD burning
@@ -348,8 +304,7 @@
 
 			Responsible for interviewing/hiring junior developers and managed aspects of a
 			small office including networking, Exchange server, and ISP
-			relationships.
-			
+			relationships.			
 		</story>
 	</job>
 
@@ -369,9 +324,6 @@
 			Lead developer of call center software employing 150 people authoring
 			html forms, db schema, stored procedures, and nightly scheduled
 			tasks.
-
-			Developed content naming convention and lead development of site scheduler for
-			managing updates, mentoring designers in content creation.
 
 			Participated in data center re-location and conversion from Cold
 			Fusion/MSSQL to ATG Dynamo/Oracle.
