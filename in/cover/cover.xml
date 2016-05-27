@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resume>
 
-  <contact>
-		<name>Kevin J. McIntyre</name>
-		<phone>(714) 642-9024</phone>
-		<email>kevin70@yahoo.com</email>
-  </contact>
+	  <contact>
+			<name>Kevin J. McIntyre</name>
+			<phone>(714) 642-9024</phone>
+			<email>kevin70@yahoo.com</email>
+	  </contact>
   
     <header>
     	<description/>
 	</header>
 	<header> 		
 		<description>	 
-			 CRO at FunnelEnvy. 			 
+			 Hello - In response to craigslist add - http://sfbay.craigslist.org/pen/sof/5403138556.html
+		</description>	
+		<description>	 
+			 I'm a generalist with knowledge up and down the stack, having released by own native android app, architected numerous systems across many business needs. 			    
+		</description>		
+		<description>	 
+			 In particular I cite my work at Greencharge Networks, in which writing command and controls systems for peak energy mitigation for grid-tied batteries. 			    
 		</description>		
 	</header>
 	<header>		

@@ -3,9 +3,9 @@
 
 	<contact>
 		<name>Kevin J. McIntyre</name>
-		<address1>2967 Emerson St</address1>
-		<address2>Palo Alto, CA</address2>
-		<phone>(718) 249-5058</phone>
+		<address1>14371 Riviera Dr.</address1>
+		<address2>Huntington Beach, CA</address2>
+		<phone>(714) 642-9024</phone>
 		<email>kevin70@yahoo.com</email>
 		<web>nwice.com</web>
 	</contact>
@@ -60,11 +60,12 @@
 			development.  
 		</lead>
 		<lead>
-			Most recently I have pursued my own software projects to further my learning of 
+			Recently I have pursued my own software projects to further my learning of 
 			cloud based development authoring reactive based systems at the intersection of architecture and UI.
 		</lead>
 		<lead>
-			My development philosophy is tool based, as a means of useful software utilized during all phases of the development cycle.
+			My development philosophy is tool based; design, fabricate, and execute; principles honed from multiple years of  
+			working with Agile methodologies.   
 		</lead>					
 		<lead>
 			As a member of a team and part of an organization, I've always tried to be a fun dependable  
@@ -74,44 +75,68 @@
 	</header>
 
 	<project>
-		<title>Founder</title>
-		<company>Athleets.com</company>
-		<stay>4/2014 &#8211; </stay>
+		<title>Research</title>
+		<company>morningoogle.com</company>
+		<stay>1/2016 &#8211; </stay>
 		<story>
-		Tweet stream contextualization - sports, politics, poker powered by Twisted, QT, Autobahn, DynamoDB, S3, Cloudfront.
-		Also see: <linkto url="www.junkeet.com">Junkeet</linkto>, <linkto url="www.pokertalon.com">Pokertalon</linkto>
+		<linkto url="morningoogle.com">MorninGoogle</linkto> video audio mash-up experimenting with <linkto url="aws.amazon.com/elastictranscoder">Amazon Elastic Transcoder</linkto> and <linkto url="aws.amazon.com/lambda">AWS Lambda</linkto>. <linkto url="github.com/kmcintyre/morningoogle.com">Github Source</linkto>		
 		</story>
 	</project>
-		
-	<project>
-		<title>Researcher</title>
-		<company>card.nwice.com</company>
-		<stay>11/2012 &#8211; 4/2014</stay>
-		<story>
-		Work exploring gameplay at the intersection of javascript, 2d-context, and mutual simulation.  
-		Multiple sub-projects operating as Android App, test-bed with HTML5 version written in JQuery, RequireJS, Node.js with runtime components rendering in 2d canvas.		
-		Also see: 
-		<linkto url="www.blackjack4all.com">www.blackjack4all.com</linkto>, <linkto url="card.nwice.com/automate.html">Automated War</linkto>
-		</story>
-	</project>	
 
 	<project>
 		<title>Operator</title>
-		<company>Scewpt.com</company>
-		<stay>11/2013 &#8211; 4/2014</stay>	
+		<company>scewpt.com</company>
+		<stay>11/2013 &#8211; </stay>	
 		<story>
-		Indisposable email via Amazon AWS, SMTP Command/Control as EC2 job creation over AWS SNS.  Newsletter web crawler with test endpoints, and 
-		behavioral notification systems.  			
-		Also see:
-		<linkto url="scewpt.com/inbox">Scewpt SMTP</linkto>, <linkto url="scewpt.com/mg">MorninGoogle.com</linkto>
+		<linkto url="scewpt.com">Scewpt SMTP</linkto> Indisposable email via Amazon AWS, SMTP Command/Control as EC2 job creation over <linkto url="aws.amazon.com/sns">AWS SNS</linkto>.  Newsletter web crawler with test endpoints, and behavioral notification systems.  			
 		</story>
-	</project>		
-
+	</project>
+	
+	<project>
+		<title>Founder</title>
+		<company>athleets.com</company>
+		<stay>4/2014 &#8211; </stay>
+		<story>
+		<linkto url="athleets.com">Athleets</linkto> tweet stream contextualization powered by Twisted, QT, Autobahn, DynamoDB, S3, Cloudfront.
+		See <linkto url="junkeet.com">Junkeet</linkto>, <linkto url="d1tweets.com">D1tweets</linkto>
+		</story>
+	</project>
+	
+	<project>
+		<title>Personal</title>
+		<company>nwice.com</company>
+		<stay>11/2012 &#8211; </stay>
+		<story>
+		Multiple projects including <linkto url="play.google.com/store/apps/details?id=com.nwice.card">Android App</linkto>, test-bed with HTML5 version written in JQuery, RequireJS, Node.js with runtime components rendering in 2d canvas.		
+		See <linkto url="blackjack4all.com">blackjack4all.com</linkto>, <linkto url="card.nwice.com/automate.html">Automated War</linkto>
+		</story>
+	</project>	
 
 	<job>
 		<title>Consultant</title>
+		<company>Nike</company>
+		<stay>2/2016 &#8211;</stay>
+		<story>
+		Full-stack engineer on Nike Present IOS application.  Primary responsibility implementing new features on web-application backend running on <linkto url="tomcat.apache.org">Tomcat</linkto>, 
+		<linkto url="sparkjava.com">Spark</linkto>, <linkto url="www.mongodb.org">MongoDB</linkto> with <linkto url="github.com/spockframework/spock">Spock</linkto>/<linkto url="www.groovy-lang.org">Groovy</linkto> tests.		   
+		</story>
+	</job>
+
+	<job>
+		<title>Consultant</title>
+		<company>MapJam.com</company>
+		<stay>10/2015 &#8211; 1/2016</stay>
+		<story>
+		Full-stack engineer responsible for several initiatives including migrating from <linkto url="www.mongodb.org">MongoDB</linkto> to <linkto url="www.postgresql.org">Postges</linkto> modeled with 
+		<linkto url="docs.sequelizejs.com">SequelizeJS</linkto>.  Additionally responsible for AWS infrastructure deployment with auto-scaling groups with <linkto url="www.ansible.com">Ansible</linkto>, 
+		static map rendering via <linkto url="webkit.org">WebKit</linkto>, <linkto url="www.qt.io">Qt</linkto> and <linkto url="riverbankcomputing.com/software/pyqt/intro">PyQT</linkto>.  
+		</story>
+	</job>
+	
+	<job>
+		<title>Consultant</title>
 		<company>Intuit</company>
-		<stay>10/2014 &#8211; </stay>
+		<stay>10/2014 &#8211; 9/2015</stay>
 		<story>
 		Javascript developer on ecommerce/sign-up portion of <linkto url="quickbooks.intuit.com">Quickbooks</linkto>.
 		Part of team developing a new purchase flow experience, using <linkto url="angularjs.org">AngularJS</linkto>, <linkto url="karma-runner.github.io">Karma</linkto>, 
@@ -161,13 +186,8 @@
 			<linkto url="www.freelancersinsuranceco.com/">medical portal</linkto>
 			for the Freelancers Union.
 
-			Key member during project planning phase, advising on software
-			infrastructure, researching solutions, and authoring project
-			documentation.
-
 			Implemented project using Eclipse, SVN, Maven, Xdoclet, MantisBT targeting
 			Linux/CentOS running Apache, Jboss 4.2.3, and Oracle 11g.
-
 
 			Application featured services that serialized third-party <linkto 
 			url="en.wikipedia.org/wiki/Electronic_Data_Interchange">EDI</linkto> file 
@@ -323,8 +343,8 @@
 			relationships.			
 		</story>
 	</job>
-
-
+	
+	<!-- 
 	<job>
 		<title>Developer</title>
 		<company>Lexitrans</company>
@@ -345,4 +365,5 @@
 			Fusion/MSSQL to ATG Dynamo/Oracle.
 		</story>
 	</job>
+	 -->
 </resume>

@@ -52,7 +52,7 @@
 											border-right-style="solid"
 											border-top-style="solid"
 											border-bottom-style="solid"																																	
-											padding-top="35" margin-bottom="12" background-image="/home/kevin/git/km_resume/in/projects.png" background-repeat="no-repeat">											 											
+											padding-top="35" margin-bottom="12" background-image="/home/ubuntu/km_resume/in/projects.png" background-repeat="no-repeat">											 											
 										</fo:block>
 
 										<xsl:apply-templates select="project" />
@@ -62,7 +62,7 @@
 								<fo:table-row>
 									<fo:table-cell>
 										<fo:block line-height="2.0" letter-spacing="4pt"
-											padding-top="35" margin-bottom="6" background-image="/home/kevin/git/km_resume/in/pro.png" background-repeat="no-repeat">											 											
+											padding-top="35" margin-bottom="6" background-image="/home/ubuntu/km_resume/in/pro.png" background-repeat="no-repeat">											 											
 										</fo:block>
 
 										<xsl:apply-templates select="job" />
@@ -194,7 +194,7 @@
 			</fo:table>
 		</fo:block>
 		<fo:block text-align="justify" margin-left="30" margin-right="30"
-			padding-bottom="4" line-height="1.25">
+			padding-bottom="2" line-height="1">
 			<xsl:apply-templates select="story" />
 		</fo:block>
 	</xsl:template>
