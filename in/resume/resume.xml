@@ -3,42 +3,50 @@
 
 	<contact>
 		<name>Kevin J. McIntyre</name>
-		<address1>14371 Riviera Dr.</address1>
-		<address2>Huntington Beach, CA</address2>
+		<address1>733 Homer Ave.</address1>
+		<address2>Palo Alto, CA</address2>
 		<phone>(714) 642-9024</phone>
 		<email>kevin70@yahoo.com</email>
 		<web>nwice.com</web>
 	</contact>
-
-	<skill title="Infrastructure">
+	
+	<skill title="AWS">
 		<list>
-			Amazon AWS,			
-			Security Admin,
-			System Admin
+			ALB,
+			API Gateway,
+			CloudFormation,			
+			CloudFront,
+			CloudWatch,
+			Lambda,
+			Route53, 
+			SES/SNS/SQS,
+			Step Functions,
+			Systems Manager,
+			WAF
 		</list>
+	</skill>
+	<skill title="Servers">
 		<list>
-			Apache, Jboss, Nginx, Tomcat, Twisted
+			Autobahn, Apache, Express, Jboss, Nginx, Tomcat
 		</list>		
 	</skill>
 
 	<skill title="Data">
 		<list>
-			MSSQL, MySQL, 
-			Oracle, Postgres, 
-			Redis, DynamoDB
+			Aurora, DynamoDB, MondoDB, MSSQL, MySQL, Oracle, Postgres, Redis
 		</list>
 	</skill>
 
 	<skill title="Domains">
 		<list>
-		    Android, Hibernate, GWT, J2EE, JQuery, JSON, NodeJS, Python, 
-		    Qt, RequireJS, Rest, SecXML, Spring, Twisted, WebSocket, Web Services, XML/XSLT			
+		    Android, Hibernate, GWT, J2EE, JQuery, JSON, Node, PHP, Python, 
+		    Qt, Rest, SecXML, Spring, Twisted, WebSocket, Web Services, XML/XSLT			
 		</list>
 	</skill>
 	
 	<skill title="Tools">
 		<list>
-			ADT, Eclipse, Git/SVN, Jenkins, Junit, Linux, Maven, Trial, Ubuntu
+			ADT, CircleCI, Eclipse, Jenkins, Junit, Maven, WebDriver
 		</list>
 	</skill>
 
@@ -60,8 +68,7 @@
 			development.  
 		</lead>
 		<lead>
-			Recently I have pursued my own software projects to further my learning of 
-			cloud based development authoring reactive based systems at the intersection of architecture and UI.
+			Recently, my roles have emphasized cloud based development within AWS.			
 		</lead>
 		<lead>
 			My development philosophy is tool based; design, fabricate, and execute; principles honed from multiple years of  
@@ -113,23 +120,25 @@
 	</project>	
 
 	<job>
-		<title>Consultant</title>
-		<company>Nike</company>
-		<stay>2/2016 &#8211;</stay>
+		<title>Senior Engineer</title>
+		<company>Intuit</company>
+		<stay>1/2017 &#8211;</stay>
 		<story>
-		Full-stack engineer on Nike Present IOS application.  Primary responsibility implementing new features on web-application backend running on <linkto url="tomcat.apache.org">Tomcat</linkto>, 
-		<linkto url="sparkjava.com">Spark</linkto>, <linkto url="www.mongodb.org">MongoDB</linkto> with <linkto url="github.com/spockframework/spock">Spock</linkto>/<linkto url="www.groovy-lang.org">Groovy</linkto> tests.		   
+		Engineer for Intuit Quickbooks small business group, architect of <linkto url="wordpress.org">Wordpress</linkto> infrastructure hosting marketing sites 
+		<linkto url="quickbooks.intuit.com">QuickBooks</linkto>, <linkto url="www.intuit.com">Intuit</linkto>, <linkto url="www.tsheets.com">TSheets</linkto> and  
+		<linkto url="www.firmofthefuture.com">FirmOfTheFuture</linkto>.  Authored CICD systems, using <linkto url="circleci.com">CircleCI</linkto> across a suite of Git repositories, support Wordpress 
+		plugin, theme, and component releases.  Featuring Cloudfront and Akamai cache optimizations, implemented via <linkto url="aws.amazon.com/lambda/edge/">Lamda@Edge</linkto>.
+		Authored wordpress plugins supporting rendering to s3, DOM performance evaluation, link validation, and encoding optimization.
 		</story>
 	</job>
 
 	<job>
 		<title>Consultant</title>
-		<company>MapJam.com</company>
-		<stay>10/2015 &#8211; 1/2016</stay>
+		<company>Nike</company>
+		<stay>2/2016 &#8211; 12/2016</stay>
 		<story>
-		Full-stack engineer responsible for several initiatives including migrating from <linkto url="www.mongodb.org">MongoDB</linkto> to <linkto url="www.postgresql.org">Postges</linkto> modeled with 
-		<linkto url="docs.sequelizejs.com">SequelizeJS</linkto>.  Additionally responsible for AWS infrastructure deployment with auto-scaling groups with <linkto url="www.ansible.com">Ansible</linkto>, 
-		static map rendering via <linkto url="webkit.org">WebKit</linkto>, <linkto url="www.qt.io">Qt</linkto> and <linkto url="riverbankcomputing.com/software/pyqt/intro">PyQT</linkto>.  
+		Full-stack engineer on Nike Present IOS application.  Primary responsibility implementing new features on web-application backend running on <linkto url="tomcat.apache.org">Tomcat</linkto>, 
+		<linkto url="sparkjava.com">Spark</linkto>, <linkto url="www.mongodb.org">MongoDB</linkto> with <linkto url="github.com/spockframework/spock">Spock</linkto>/<linkto url="www.groovy-lang.org">Groovy</linkto> tests.		   
 		</story>
 	</job>
 	
@@ -345,6 +354,16 @@
 	</job>
 	
 	<!-- 
+	<job>
+		<title>Consultant</title>
+		<company>MapJam.com</company>
+		<stay>10/2015 &#8211; 1/2016</stay>
+		<story>
+		Full-stack engineer responsible for several initiatives including migrating from <linkto url="www.mongodb.org">MongoDB</linkto> to <linkto url="www.postgresql.org">Postges</linkto> modeled with 
+		<linkto url="docs.sequelizejs.com">SequelizeJS</linkto>.  Additionally responsible for AWS infrastructure deployment with auto-scaling groups with <linkto url="www.ansible.com">Ansible</linkto>, 
+		static map rendering via <linkto url="webkit.org">WebKit</linkto>, <linkto url="www.qt.io">Qt</linkto> and <linkto url="riverbankcomputing.com/software/pyqt/intro">PyQT</linkto>.  
+		</story>
+	</job>	
 	<job>
 		<title>Developer</title>
 		<company>Lexitrans</company>

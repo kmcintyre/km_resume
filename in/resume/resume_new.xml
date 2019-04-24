@@ -3,49 +3,57 @@
 
 	<contact>
 		<name>Kevin J. McIntyre</name>
-		<address1>14371 Riviera Dr.</address1>
-		<address2>Huntington Beach, CA</address2>
+		<address1>733 Homer Ave.</address1>
+		<address2>Palo Alto, CA</address2>
 		<phone>(714) 642-9024</phone>
 		<email>kevin70@yahoo.com</email>
 		<web>nwice.com</web>
 	</contact>
-
-	<skill title="Infrastructure">
+	
+	<skill title="AWS">
 		<list>
-			Amazon AWS,			
-			Security Admin,
-			System Admin
+			ALB,
+			API Gateway,
+			CloudFormation,			
+			CloudFront,
+			CloudWatch,
+			Lambda,
+			Route53, 
+			SES/SNS/SQS,
+			Step Functions,
+			Systems Manager,
+			WAF
 		</list>
+	</skill>
+	<skill title="Servers">
 		<list>
-			Apache, Jboss, Nginx, Tomcat, Twisted
+			Autobahn, Apache, Express, Jboss, Nginx, Tomcat
 		</list>		
 	</skill>
 
 	<skill title="Data">
 		<list>
-			MSSQL, MySQL, 
-			Oracle, Postgres, 
-			Redis, DynamoDB
+			Aurora, DynamoDB, MondoDB, MSSQL, MySQL, Oracle, Postgres, Redis
 		</list>
 	</skill>
 
 	<skill title="Domains">
 		<list>
-		    Android, Hibernate, GWT, J2EE, JQuery, JSON, NodeJS, Python, 
-		    Qt, Rest, RequireJS, Spring, Twisted, WebSocket, Web Services, XSLT			
+		    Android, Hibernate, GWT, J2EE, JQuery, JSON, Node, PHP, Python, 
+		    Qt, Rest, SecXML, Spring, Twisted, WebSocket, Web Services, XML/XSLT			
 		</list>
 	</skill>
 	
 	<skill title="Tools">
 		<list>
-			ADT, Eclipse, Git/SVN, Jenkins, Junit, Linux, Maven, Trial, Ubuntu
+			ADT, CircleCI, Eclipse, Jenkins, Junit, Maven, WebDriver
 		</list>
 	</skill>
 
 	<header>
 		<title>Objective</title>
 		<description>
-			Seeking opportunities in software as principle engineer within a full-stack development environment.  
+			Seeking opportunities in software as principle engineer, architect, and full-stack developer.  
 		</description>
 	</header>
 
@@ -60,11 +68,11 @@
 			development.  
 		</lead>
 		<lead>
-			Most recently I have pursued my own software projects to further my learning of 
-			cloud based development authoring reactive based systems at the intersection of architecture and UI.
+			Recently, my roles have emphasized cloud based development within AWS.			
 		</lead>
 		<lead>
-			My development philosophy is tool based, as a means of useful software utilized during all phases of the development cycle.
+			My development philosophy is tool based; design, fabricate, and execute; principles honed from multiple years of  
+			working with Agile methodologies.   
 		</lead>					
 		<lead>
 			As a member of a team and part of an organization, I've always tried to be a fun dependable  
@@ -73,51 +81,89 @@
 		</lead>
 	</header>
 
-	<job>
-		<title>Founder/Developer</title>
-		<company>Athleets.com</company>
+	<project>
+		<title>Research</title>
+		<company>morningoogle.com</company>
+		<stay>1/2016 &#8211; </stay>
+		<story>
+		<linkto url="morningoogle.com">MorninGoogle</linkto> video audio mash-up experimenting with <linkto url="aws.amazon.com/elastictranscoder">Amazon Elastic Transcoder</linkto> and <linkto url="aws.amazon.com/lambda">AWS Lambda</linkto>. <linkto url="github.com/kmcintyre/morningoogle.com">Github Source</linkto>		
+		</story>
+	</project>
+
+	<project>
+		<title>Operator</title>
+		<company>scewpt.com</company>
+		<stay>11/2013 &#8211; </stay>	
+		<story>
+		<linkto url="scewpt.com">Scewpt SMTP</linkto> Indisposable email via Amazon AWS, SMTP Command/Control as EC2 job creation over <linkto url="aws.amazon.com/sns">AWS SNS</linkto>.  Newsletter web crawler with test endpoints, and behavioral notification systems.  			
+		</story>
+	</project>
+	
+	<project>
+		<title>Founder</title>
+		<company>athleets.com</company>
 		<stay>4/2014 &#8211; </stay>
 		<story>
-		Tweet stream contextualization - sports, politics, poker powered by Twisted, QT, Autobahn, DynamoDB, S3, Cloudfront.
-		Also see: <linkto url="www.junkeet.com">Junkeet</linkto>, <linkto url="www.pokertalon.com">Pokertalon</linkto>
+		<linkto url="athleets.com">Athleets</linkto> tweet stream contextualization powered by Twisted, QT, Autobahn, DynamoDB, S3, Cloudfront.
+		See <linkto url="junkeet.com">Junkeet</linkto>, <linkto url="d1tweets.com">D1tweets</linkto>
 		</story>
-	</job>
-		
-	<job>
-		<title>Research</title>
-		<company>card.nwice.com</company>
-		<stay>11/2013 &#8211; 4/2014</stay>
+	</project>
+	
+	<project>
+		<title>Personal</title>
+		<company>nwice.com</company>
+		<stay>11/2012 &#8211; </stay>
 		<story>
-		Work exploring gameplay at the intersection of javascript, 2d-context, and mutual simulation.  
-		Multiple sub-projects operating as Android App, test-bed with HTML5 version written in JQuery, RequireJS, Node.js with runtime components rendering in 2d canvas.		
-		Also see: 
-		<linkto url="www.blackjack4all.com">www.</linkto>
-		<linkto url="card.nwice.com/automate.html">Automated War</linkto>
+		Multiple projects including <linkto url="play.google.com/store/apps/details?id=com.nwice.card">Android App</linkto>, test-bed with HTML5 version written in JQuery, RequireJS, Node.js with runtime components rendering in 2d canvas.		
+		See <linkto url="blackjack4all.com">blackjack4all.com</linkto>, <linkto url="card.nwice.com/automate.html">Automated War</linkto>
 		</story>
-	</job>	
+	</project>	
 
 	<job>
-		<title>Research</title>
-		<company>MorninGoogle.com</company>
-		<stay>11/2013 &#8211; 4/2014</stay>	
+		<title>Senior Engineer</title>
+		<company>Intuit</company>
+		<stay>1/2017 &#8211;</stay>
 		<story>
-			Indisposable email via Amazon AWS, SMTP Command/Control system to EC2 job creation running within Amazon Web Service.  Newsletter web crawler with test endpoints, and 
-			behavioral notification systems.  Concepts include system orchestration via over AWS SNS.  			
+		Engineer for Intuit Quickbooks small business group, architect of <linkto url="wordpress.org">Wordpress</linkto> infrastructure hosting marketing sites 
+		<linkto url="quickbooks.intuit.com">QuickBooks</linkto>, <linkto url="www.intuit.com">Intuit</linkto>, <linkto url="www.tsheets.com">TSheets</linkto> and  
+		<linkto url="www.firmofthefuture.com">FirmOfTheFuture</linkto>.  Authored CICD systems, using <linkto url="circleci.com">CircleCI</linkto> across a suite of Git repositories, support Wordpress 
+		plugin, theme, and component releases.  Featuring Cloudfront and Akamai cache optimizations, implemented via <linkto url="aws.amazon.com/lambda/edge/">Lamda@Edge</linkto>.
+		Authored wordpress plugins supporting rendering to s3, DOM performance evaluation, link validation, and encoding optimization.
 		</story>
-		<linkto url="scewpt.com/inbox">Scewpt SMTP</linkto>
-	</job>		
+	</job>
+
+	<job>
+		<title>Consultant</title>
+		<company>Nike</company>
+		<stay>2/2016 &#8211; 12/2016</stay>
+		<story>
+		Full-stack engineer on Nike Present IOS application.  Primary responsibility implementing new features on web-application backend running on <linkto url="tomcat.apache.org">Tomcat</linkto>, 
+		<linkto url="sparkjava.com">Spark</linkto>, <linkto url="www.mongodb.org">MongoDB</linkto> with <linkto url="github.com/spockframework/spock">Spock</linkto>/<linkto url="www.groovy-lang.org">Groovy</linkto> tests.		   
+		</story>
+	</job>
+	
+	<job>
+		<title>Consultant</title>
+		<company>Intuit</company>
+		<stay>10/2014 &#8211; 9/2015</stay>
+		<story>
+		Javascript developer on ecommerce/sign-up portion of <linkto url="quickbooks.intuit.com">Quickbooks</linkto>.
+		Part of team developing a new purchase flow experience, using <linkto url="angularjs.org">AngularJS</linkto>, <linkto url="karma-runner.github.io">Karma</linkto>, 
+		and <linkto url="requirejs.org">RequireJS</linkto>, featuring de-coupled internationalization and localization modules to deliver across all <linkto url="intuit.com">Intuit.com</linkto> domains.    
+		</story>
+	</job>
 				
 	<job>
 		<title>Consultant</title>
 		<company>Esri</company>
 		<stay>4/2013 &#8211; 7/2013</stay>
 		<story>
-		Java architecture on ecommerce portion of <linkto url="developers.arcgis.com">ArcGIS for Developers</linkto>.
+		Architect on ecommerce portion of <linkto url="developers.arcgis.com">ArcGIS for Developers</linkto>.
 		Multi-tiered maven project, bridging <linkto url="www.salesforce.com/us/developer/docs/api/index.htm">Salesforce API</linkto> with 
 		<linkto url="www.springsource.org">Spring</linkto> and <linkto url="jersey.java.net">Java Jersey</linkto>, 
 		serving rest-based json to javascript clients.  Included components: <linkto url="memcached.org">Memcached</linkto>, <linkto url="aws.amazon.com/elasticache">Amazon ElastiCache</linkto>,
 		<linkto url="testng.org">TestNG</linkto>, and <linkto url="jackson.codehaus.org">Java Jackson</linkto>.  
-		Working environment was Agile based with an emphasis on test driven development.
+		Working environment emphasis was on test driven development.
 		</story>
 	</job>
 	
@@ -127,12 +173,12 @@
 		<stay>8/2011 &#8211; 4/2013</stay>
 		<story>
 		Key contributor on 
-		flagship products Greenstation, and GridSynergy for <linkto url="www.greenchargenet.com">Green Charge Networks</linkto>.
+		products Greenstation, and GridSynergy for <linkto url="www.greenchargenet.com">Green Charge Networks</linkto>.
 		Lead development on prototype of event-driven embedded system controller using 
-		<linkto url="www.python.org">Python</linkto> and <linkto url="twistedmatrix.com">Twisted</linkto>.  Device provided mitigation and curtailment of energy usage
+		<linkto url="twistedmatrix.com">Twisted</linkto>.  Device provided mitigation and curtailment of energy usage
 		through control of inverter battery, photovoltaic, and electric vehicle charging systems.  Monitoring was provided via 
 		reporting to <linkto url="redis.io">Redis</linkto>, and was controlled via GridSynergy network operations center, securely hosted in <linkto url="aws.amazon.com">Amazon Web 
-		Services</linkto>.  Developed real-time charting system using <linkto url="https://developers.google.com/chart/interactive/docs/reference">Google Visualization</linkto>, a tool 
+		Services</linkto>.  Developed real-time charting system using <linkto url="developers.google.com/chart/interactive/docs/reference">Google Visualization</linkto>, a tool 
 		used extensively during testing, operations, and new business development.  Managed the release of multiple iterations of the software across the installation sites at 7-11, and 
 		Avis car rental.  Contributor to corporate IP, authoring several patents on grid-tied battery control systems.  Contributing developer on network operation J2EE software, using 
 		<linkto url="maven.apache.org">Maven</linkto>, <linkto url="tomcat.apache.org">Tomcat</linkto>, <linkto url="www.hibernate.org">Hibernate</linkto>, 
@@ -149,15 +195,8 @@
 			<linkto url="www.freelancersinsuranceco.com/">medical portal</linkto>
 			for the Freelancers Union.
 
-			Key member during project planning phase, advising on software
-			infrastructure, researching solutions, and authoring project
-			documentation.
-
 			Implemented project using Eclipse, SVN, Maven, Xdoclet, MantisBT targeting
 			Linux/CentOS running Apache, Jboss 4.2.3, and Oracle 11g.
-
-			Developed standards-based enterprise application with hibernate model, a
-			business-tier, and servlet/jsp controllers/views.
 
 			Application featured services that serialized third-party <linkto 
 			url="en.wikipedia.org/wiki/Electronic_Data_Interchange">EDI</linkto> file 
@@ -190,8 +229,7 @@
 			Application featured JNLP WebStart client brokering calls via EJB SessionBeans
 			to a server, running Jboss 4.0.5 and MSSQL 2005.
 
-			Took ownership of source code (2500 source files/1800 sql scripts) and
-			release cycle from 3rd-party vendor, responsible for all facets of
+			Responsible for all facets of
 			development.
 
 			Established a test environment, installed
@@ -314,8 +352,18 @@
 			relationships.			
 		</story>
 	</job>
-
-
+	
+	<!-- 
+	<job>
+		<title>Consultant</title>
+		<company>MapJam.com</company>
+		<stay>10/2015 &#8211; 1/2016</stay>
+		<story>
+		Full-stack engineer responsible for several initiatives including migrating from <linkto url="www.mongodb.org">MongoDB</linkto> to <linkto url="www.postgresql.org">Postges</linkto> modeled with 
+		<linkto url="docs.sequelizejs.com">SequelizeJS</linkto>.  Additionally responsible for AWS infrastructure deployment with auto-scaling groups with <linkto url="www.ansible.com">Ansible</linkto>, 
+		static map rendering via <linkto url="webkit.org">WebKit</linkto>, <linkto url="www.qt.io">Qt</linkto> and <linkto url="riverbankcomputing.com/software/pyqt/intro">PyQT</linkto>.  
+		</story>
+	</job>	
 	<job>
 		<title>Developer</title>
 		<company>Lexitrans</company>
@@ -336,4 +384,5 @@
 			Fusion/MSSQL to ATG Dynamo/Oracle.
 		</story>
 	</job>
+	 -->
 </resume>
