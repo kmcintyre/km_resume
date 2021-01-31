@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+
+	  <contact>
+			<name>Kevin J. McIntyre</name>
+			<phone>(714) 642-9024</phone>
+			<email>kevin70@yahoo.com</email>
+	  </contact>
+
+    <header>
+    <description/>
+		</header>
+	<header>
+		<description>
+			 In response to Sr. Software Engineer, Backend posted on
+			 <linkto url="slack.com/careers/2349830/sr-software-engineer-backend">slack</linkto>.
+		</description>
+		<br/><br/>
+		<description>
+			 Hello Slack!  First off, I want to commend the organization on providing a world class
+			 product, that raises the productivity of users wherever I've had the pleasure of working that uses slack.
+			 Channel based communication is the way forward, and an open platform that allows for
+			 developers to build tools for other developers enriches the software development community.
+			 Countless times during hack-a-thons the best product is invariably a slack app furthering
+			 developer engagement.
+		</description>
+		<br/><br/>
+		<description>
+			 I'm a generalist with knowledge up and down the stack, having architected and developed on numerous systems across many business needs.
+			 In particular, I cite my work at Intuit; architecting Wordpress platform on AWS, authoring plugins and components, and working with
+			 developers/content-creators to increase the organization's velocity.
+		</description>
+		<br/><br/>
+		<description>
+			 Additionally I cite my work on my side project Athleets.com where I endeavored to bring
+			 contextualization to professional athletes tweets while I taught myself the AWS ecosystem
+			 from a pure curiousity standpoint.  During this time I learned core AWS offerings to a depth
+			 that goes beyond professional usage.  I emerged from this period very knowledgeable in how to
+			 build economical systems and the ability to solve problems via novel means.
+		</description>
+		<br/><br/>
+		<description>
+			 I have a passion for software development with an approach that's similar to yoga.
+			 It's a practise that's to be performed everyday.  How can I/we
+			 get better day to day?  I thrill in the working with others, creating that
+			 collective mindspace where groups of individuals are executing code in our
+			 thoughts.  Encouraging each other to try new things, and recognizing efforts large
+			 and small that make for great teams.
+		</description>
+		<description>
+			Thanks again for a great product, that's made my life easier.  And thank you
+			for any time/consideration given on my behalf.
+		</description>
+	</header>
+	<header>
+		<description>
+		Kevin McIntyre
+		</description>
+	</header>
+
+</resume>

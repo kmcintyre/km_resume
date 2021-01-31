@@ -11,28 +11,28 @@
       </fo:layout-master-set>
 
       <fo:page-sequence master-reference="simple">
-        <fo:flow flow-name="xsl-region-body">        
+        <fo:flow flow-name="xsl-region-body">
 		<fo:block font-size="10pt" font-family="Times">
-		
+
 		<fo:table table-layout="fixed">
 			<fo:table-column column-width="4.5in"/>
 			  <fo:table-column column-width="2.0in"/>
-                            		
+
             <fo:table-body>
 		    <fo:table-row>
 				<fo:table-cell border-style="solid" border-right="0" border-left="0" border-top="0" border-bottom="0">
-					<fo:block margin-top="58">																          									
+					<fo:block margin-top="58">
 					</fo:block>
-				</fo:table-cell>			 		    
-				<fo:table-cell>				                       
-					<xsl:apply-templates select="contact"/>					
-				</fo:table-cell>		    
+				</fo:table-cell>
+				<fo:table-cell>
+					<xsl:apply-templates select="contact"/>
+				</fo:table-cell>
 			</fo:table-row>
 		    <fo:table-row>
-				<fo:table-cell number-columns-spanned="2">			
+				<fo:table-cell number-columns-spanned="2">
 					<xsl:apply-templates select="header"/>
-				</fo:table-cell>			 
-			</fo:table-row>					
+				</fo:table-cell>
+			</fo:table-row>
 		  </fo:table-body>
       	</fo:table>
 		</fo:block>
@@ -41,14 +41,19 @@
 
     </fo:root>
   </xsl:template>
-  
+
+  <xsl:template match="br">
+    <fo:block margin-left="10" padding-top="8">
+    </fo:block>
+  </xsl:template>
+
   <xsl:template match="header">
-	<fo:block margin-left="10">        
+	<fo:block margin-left="10">
 		<fo:block padding-top="10" padding-bottom="3" margin-left="10" margin-right="20">
-		  	<xsl:apply-templates select="description"/>
+		  	<xsl:apply-templates select="*"/>
 	  	</fo:block>
 	</fo:block>
-  </xsl:template>   
+  </xsl:template>
 
   <xsl:template match="contact">
 					<fo:block text-align="center" margin-right="15">
@@ -71,17 +76,33 @@
 					          <xsl:value-of select="email"/>
 						</fo:basic-link>
 				        </fo:block>
-					</fo:block> 
+					</fo:block>
   </xsl:template>
-  
+
 	<xsl:template match="linkto">
 		<fo:basic-link>
-			<xsl:attribute name="external-destination">url('http://<xsl:value-of
+			<xsl:attribute name="external-destination">url('https://<xsl:value-of
 				select="@url" />')</xsl:attribute>
 			<fo:inline color="#0000CC">
 				<xsl:value-of select="." />
 			</fo:inline>
 		</fo:basic-link>
-	</xsl:template>  
-  
+	</xsl:template>
+
+  <xsl:template match="img">
+    <fo:external-graphic content-height="scale-to-fit" height="2.00in" text-align="center">
+      <xsl:attribute name="src">url('<xsl:value-of select="@url" />')</xsl:attribute>
+    </fo:external-graphic>
+  </xsl:template>
+
+  <xsl:template match="linkto">
+		<fo:basic-link>
+			<xsl:attribute name="external-destination">url('https://<xsl:value-of
+				select="@url" />')</xsl:attribute>
+			<fo:inline color="#0000CC">
+				<xsl:value-of select="." />
+			</fo:inline>
+		</fo:basic-link>
+	</xsl:template>
+
 </xsl:stylesheet>
