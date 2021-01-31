@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format" exclude-result-prefixes="fo">
   <xsl:output method="xml" version="1.0" omit-xml-declaration="no" indent="yes"/>
 
-  <xsl:variable name="image_folder" select="'/Users/vn50qos/km_resume/in/images/'" />
+  <xsl:variable name="image_folder" select="'images_folder'" />
 
   <xsl:template match="resume">
     <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
