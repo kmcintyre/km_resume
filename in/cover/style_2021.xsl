@@ -2,6 +2,8 @@
 <xsl:stylesheet version="1.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format" exclude-result-prefixes="fo">
   <xsl:output method="xml" version="1.0" omit-xml-declaration="no" indent="yes"/>
 
+  <xsl:variable name="image_folder" select="'/Users/vn50qos/km_resume/in/images/'" />
+
   <xsl:template match="resume">
     <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
       <fo:layout-master-set>
@@ -77,22 +79,6 @@
 						</fo:basic-link>
 				        </fo:block>
 					</fo:block>
-  </xsl:template>
-
-	<xsl:template match="linkto">
-		<fo:basic-link>
-			<xsl:attribute name="external-destination">url('https://<xsl:value-of
-				select="@url" />')</xsl:attribute>
-			<fo:inline color="#0000CC">
-				<xsl:value-of select="." />
-			</fo:inline>
-		</fo:basic-link>
-	</xsl:template>
-
-  <xsl:template match="img">
-    <fo:external-graphic content-height="scale-to-fit" height="2.00in" text-align="center">
-      <xsl:attribute name="src">url('<xsl:value-of select="@url" />')</xsl:attribute>
-    </fo:external-graphic>
   </xsl:template>
 
   <xsl:template match="linkto">
