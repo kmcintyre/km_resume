@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+
+	<contact>
+		<name>Kevin J. McIntyre</name>
+		<address>Palo Alto, CA</address>
+		<phone>(714) 642-9024</phone>
+	</contact>
+
+	<skill title="Servers">
+		<list>
+				Apache, Express, Jboss, Nginx, Tomcat, Wordpress
+		</list>
+	</skill>
+
+	<skill title="Data">
+		<list>
+				Aurora, Cassandra, DynamoDB, MongoDB, MSSQL, MySQL, Oracle, Postgres, Redis
+		</list>
+	</skill>
+
+	<skill title="Domains">
+		<list>
+		    Android, AWS, Hibernate, J2EE, JQuery, JSON, Node, PHP, Python,
+		    Qt, Rest, SecXML, Spring, Twisted, WebSocket, Web Services, XML/XSLT
+		</list>
+	</skill>
+
+	<skill title="Tools">
+		<list>
+			ADT, CircleCI, Eclipse, Jenkins, Jira, Junit, Maven, WebDriver
+		</list>
+	</skill>
+
+	<header title="Objective">
+		<description>
+			Seeking role as principal/lead engineer, or hands-on development manager.
+		</description>
+	</header>
+
+	<header title="Summary">
+		<description>
+			Full stack developer, predominantly within AWS ecosystem, focused on enabling best-in-bread open source technologies to perform as designed.
+		</description>
+		<description>
+			A proponent of full system CICD, and giving developers opportunities to be highly productive within gracefully failing guardrails.
+		</description>
+		<description>
+			As a member of a team and part of an organization, I've always tried to be a fun dependable co-worker. Interests include water sports, cycling, green tea, and NFL.
+		</description>
+		<workpic image="work.png"/>
+	</header>
+
+	<highlight image="freelancers.jpeg">
+		Poineered health care benefits portal/EDI processing and generation platform sufficiently dynamic
+		to support Obamacare requirements, multiple vendor changes and SSO integrations.
+	</highlight>
+	<highlight image="quickbooks.png">
+		Fostered an events library for Quickbooks enrollment of which large pieces are still operational.
+		Incubated Wordpress/AWS publishing platform supporting a myriad of content needs.
+	</highlight>
+	<highlight image="athleets.png">
+		Founder of athleets.com a social contextual app featuring real-time identity valadation tools.
+		Authored as a suite of services across a multitude of AWS systems.
+	</highlight>
+
+	<job>
+		<tenure image="cognizant.png">
+			<title>Principal Fullstack Engineer</title>
+			<company>Cognizant</company>
+			<begin>Oct 2019</begin>
+		</tenure>
+		<story>
+			UI engineer for <linkto url="macys.com">Macys</linkto> authoring
+			Backbonejs, Marionettejs, Webpack components with corresponding test
+			written in Karma Runner.  Contibutor on Java Spring/Java Jersey backend proxy.
+			<break/>
+			<break/>
+			Fullstack engineer for <linkto url="walmart.com">Walmart</linkto>
+			authoring components related to inbound receiving Cordova app
+			supported by CXF/Spring/Camel backend integrated with Kafka
+			and IBM MQ.
+			<break/>
+			Brought testing expertise using Puppeteer, as well as javax validation
+			utilization to reduce code and test complexity. Promonent for MOB programming
+			sessions bringing together all team members to facilitate learning across
+			platform.  Worked across Walmart ecocystem incorpating Grafana, xMatters,
+			and other in-house reporting systems.
+		</story>
+	</job>
+	<job>
+		<tenure image="quickbooks.png">
+			<title>Senior Engineer</title>
+			<company>Intuit</company>
+			<begin>Jan 2017</begin>
+			<end>May 2019</end>
+		</tenure>
+		<story>
+			Architect of <linkto url="wordpress.org">Wordpress</linkto> infrastructure hosting marketing sites
+			<linkto url="quickbooks.intuit.com">QuickBooks</linkto>, <linkto url="www.intuit.com">Intuit</linkto>, <linkto url="www.tsheets.com">TSheets</linkto> and
+			<linkto url="www.firmofthefuture.com">FirmOfTheFuture</linkto>.
+			Member of Intuit Innovation Catalyst group promoting Intuit customer obsession principals such as Design for Delight.
+			<break/>
+			CICD workflows using CircleCI across a suite of Git repositories, supporting Wordpress plugin, theme, and component releases.
+			CloudFormation infrastructure templates/deployment scripts utilizing Aurora DB, multiple LC/ASG, Lambda, Lambda@Edge, CloudWatch, SNS/SQS, SSM Manager, and custom AIM formation.
+			Wordpress plugin development supporting CDN cache invalidation, static publishing and custom WP-JSON integrations.
+			Web-component development using Composer, Webpack, Gatbsy, React, and AngularJS in support of a myriad of marketing needs as part of migration from AEM to Wordpress.
+			Developer on Intuit Iris messaging platform.
+			<break/>
+			Migration from Spring 1.3 to Spring 1.6, Guava to Caffine cache management, and update of critical maven dependencies.
+			Extended MQ/Kafka bridge library to support additional messaging schema types and brokering strategies.  Added integration testing, Spring Boot dynamic endpoint configuration.
+			Prototyped email delivery via AWS Pinpoint.
+			<break/>
+			Lead developer on subsequent version of Quickbooks registration workflow.
+			Reduced code complexity from 13K to 9K lines of code, and release time from hours to minutes by migration of bulky Ruby on Rails endpoints to AWS Node/Express based services.
+			Migrated from Perforce to Git, implemented Jenkins workflow targeting Adobe Experience Manager bundle with Selinum and Hobbes.js validation.
+			Splunk dashboading to isolate registration dropoff, customer pain-points, and internal service errors.
+			Worked with regional product teams for GDPR compliance.
+		</story>
+	</job>
+	<job>
+		<tenure image="nike.png">
+			<title>Consultant</title>
+			<company>Nike</company>
+			<begin>Jan 2016</begin>
+			<end>Dec 2016</end>
+		</tenure>
+		<story>
+			Full-stack engineer on Nike Present IOS application.
+			Implemented new features on web-application backend running on Tomcat, Spark, MongoDB with Spock/Groovy tests.
+			Application refresh with Angular/Material Design upgrade, and enhanced Protractor testing.
+			IOS Swift upgrade with security refactor aligning with corporate directives.
+			MongoDB upgrade, and additional stack tuning via ThoughtWorks Go pipeline updates.
+			AEM development of AEM media workflows.
+		</story>
+	</job>
+	<job>
+		<tenure image="quickbooks.png">
+			<title>Software Consultant</title>
+			<company>Intuit</company>
+			<begin>Nov 2014</begin>
+			<end>Oct 2015</end>
+		</tenure>
+		<story>
+			Consultant on embedded javascript widget for Quickbooks registration workflow.
+			RequireJS bundle using event driven model for trail/purchase funnels featuring de-coupled internationalization and localization modules.
+			Mustache templating integration with AEM components allowing customized registration experiences to be authored.
+		</story>
+	</job>
+	<job>
+		<tenure image="esri.png">
+			<title>Consultant</title>
+			<company>Esri</company>
+			<begin>Mar 2013</begin>
+			<end>Aug 2013</end>
+		</tenure>
+		<story>
+			Architect on ecommerce portion of <linkto url="developers.arcgis.com">ArcGIS for Developers</linkto>.
+			Multi-tiered maven project bridging <linkto url="www.salesforce.com/us/developer/docs/api/index.htm">Salesforce API</linkto> with
+			Spring and Java Jersey.
+			AWS components inlcuded Amazon ElastiCache, Elastic Beanstalk capable of supporting 5000 simultaneous registrations.
+			Test driven development using TestNG, Spring Test within Jenkins CICD pipeline.
+			Worked with offsite engineering team to coordinate UI releases and shared testing libraries.
+		</story>
+	</job>
+
+	<job>
+		<tenure image="gcn.png">
+			<title>Lead Developer</title>
+			<company>Green Charge Networks</company>
+			<begin>Aug 2011</begin>
+			<end>Apr 2013</end>
+		</tenure>
+		<story>
+			Developer on products Greenstation, and GridSynergy for <linkto url="www.greenchargenet.com">Green Charge Networks</linkto>.
+			Lead development on prototype of event-driven embedded battery management system controller using <linkto url="twistedmatrix.com">Twisted</linkto>.
+			Real-time charting system using Redis, and Google Visualization.
+			Developer on network operation J2EE software Tomcat, Hibernate, Spring, and Google Web Toolkit.
+		</story>
+	</job>
+
+	<job>
+		<tenure image="freelancers.jpeg">
+			<title>Java Architect</title>
+			<company>Freelancers Union</company>
+			<begin>Apr 2008</begin>
+			<end>Feb 2011</end>
+		</tenure>
+		<story>
+			Lead developer on a <linkto url="www.freelancersinsuranceco.com/">medical portal</linkto> for the Freelancers Union.
+			Implemented project using Eclipse, SVN, Maven, Xdoclet, MantisBT targeting
+			Linux/CentOS running Apache, Jboss 4.2.3, and Oracle 11g.
+			Application featured services that serialized third-party <linkto
+			url="en.wikipedia.org/wiki/Electronic_Data_Interchange">EDI</linkto> file
+			into a data warehouse.
+			SSO modules to view patient claims information on third-party websites written in OpenSAML and SAML 2.0.
+			Key contributor to 3rd party vendor analysis and selection.
+		</story>
+	</job>
+
+	<job>
+		<tenure>
+			<title>Consultant</title>
+			<company>NYC</company>
+			<begin>Oct 1996</begin>
+			<end>Mar 2008</end>
+		</tenure>
+		<story>
+			Consultant to variety of companies both Fortune 500 and new media.
+			Engineered enterprise Swing application for an industry leading
+			health club chain <linkto url="www.crunch.com">Crunch Fitness</linkto>.
+			Software development at <linkto url="www.iamplify.com">Iamplify.com</linkto>, responsible for content delivery platform and ecommerce
+			<linkto url="www.oscommerce.com">OSCommerce</linkto> fulfillment.
+			Consultant to <linkto url="blueprint.com">Blueprint</linkto>, a pharmaceutical branding company, responsible for web application connecting doctors and patients.
+			Lead developer on automated probationer check-in system for NYC Department of Probation.
+		</story>
+	</job>
+
+</resume>
